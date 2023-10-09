@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_about_mission" name="Aboutus Mission">
+        <section class="about_mission pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 my-2 o_colored_level o_animate o_anim_slide_in o_anim_from_bottom o_visible" style="">
+                        <section class="h-100 rounded_16 p_32 o_colored_level" style="background-image: radial-gradient(37.3% 110.46% at 50% 49.91%, rgb(255, 127, 0) 0%, rgb(249, 92, 4) 100%);">
+                            <div class="mision_item">
+                                <img src="/theme_latinpagos/static/src/img/icon-mision.svg" loading="eager" style=""/>
+                                <h1 class="my-3 text-white fw-bold">Misión</h1>
+                                <p class="text-white">
+                                    Estar a la vanguardia de las soluciones financieras de pagos.
+                                    Facilitándoles el día a día al cliente, permitiéndole impulsar su
+                                    negocio, acompañado de un servicio de calidad orientado en mejorar
+                                    la experiencia de usuario.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4 my-2 o_colored_level o_animate o_anim_slide_in o_anim_from_bottom o_visible" style="">
+                        <section class="h-100 rounded_16 p_32 o_colored_level" style="background-image: radial-gradient(37.3% 110.46% at 50% 49.91%, #ff7f00 0%, #f95c04 100%);">
+                            <div class="mision_item">
+                                <img src="/theme_latinpagos/static/src/img/icon-vision.svg" loading="eager" style=""/>
+                                <h1 class="my-3 text-white fw-bold">Visión</h1>
+                                <p class="text-white">
+                                    Ser la solución financiera de medios de pago más novedosa del mercado. Enfocados en la mejor experiencia de usuario y capacitación para el uso de nuestros productos y servicios. Logrando mejorar las finanzas empresariales y personales de cada cliente.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4 my-2 o_colored_level o_animate o_anim_slide_in o_anim_from_bottom o_visible" style="">
+                        <section class="h-100 rounded_16 p_32 o_colored_level" style="background-image: radial-gradient(37.3% 110.46% at 50% 49.91%, #ff7f00 0%, #f95c04 100%);">
+                            <div class="mision_item">
+                                <img src="/theme_latinpagos/static/src/img/icon-valores.svg" loading="eager" style=""/>
+                                <h1 class="my-3 text-white fw-bold">Valores</h1>
+                                <ul>
+                                    <li class="mb-3 text-white">Excelencia</li>
+                                    <li class="mb-3 text-white">Compromiso</li>
+                                    <li class="mb-3 text-white">Honestidad</li>
+                                    <li class="mb-3 text-white">Innovación</li>
+                                    <li class="mb-3 text-white">Liderazgo y Responsabilidad</li>
+                                    <li class="mb-3 text-white">Trabajo en Equipo</li>
+                                    <li class="mb-3 text-white">Solidaridad</li>
+                                    <li class="mb-3 text-white">Pasión</li>
+                                    <li class="mb-3 text-white">Confidencialidad</li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

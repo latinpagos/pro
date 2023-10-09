@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_support_types" name="Types">
+        <section class="support_types pb48 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/background-empresas-emprendimientos-personas.svg&quot;);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0 o_colored_level o_animate o_anim_flip_in_y" style="">
+                        <section class="type_content h-md-100 bg-white o_colored_level" style="background-image: none;">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/index_banner_slider1_building.svg" loading="eager" style=""/>
+                            <h4 class="text-secondary my-3 fw-bold">Empresas</h4>
+                            <p>Incrementa la rentabilidad y disminuye los costos, ofreciendo a tus clientes poder pagar su pedido de forma rápida y eficiente.</p>
+                            <a href="#" class="text-secondary fw-bold text-decoration-none">
+                                Financiamiento
+                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/capa_1.svg" loading="eager" style=""/>
+                            </a>
+                        </section>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0 o_colored_level o_animate o_anim_flip_in_y" style="animation-duration: 1.2s;">
+                        <section class="type_content h-md-100 bg-white o_colored_level" style="background-image: none;">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/index_banner_slider1_home.svg" loading="eager" style=""/>
+                            <h4 class="text-secondary my-3 fw-bold">Emprendimientos</h4>
+                            <p>Mantén el flujo de caja y la cola en movimiento, con las funcionalidades que te ofrece la plataforma de Latin Pagos.</p>
+                            <a href="#" class="text-secondary fw-bold text-decoration-none">
+                                Pasos para la compra
+                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/capa_1.svg" loading="eager" style=""/>
+                            </a>
+                        </section>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0 o_colored_level o_animate o_anim_flip_in_y" style="animation-duration: 1.4s;">
+                        <section class="type_content h-md-100 bg-white o_colored_level" style="background-image: none;">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/index_banner_slider1_user.svg" loading="eager" style=""/>
+                            <h4 class="text-secondary my-3 fw-bold">Personas</h4>
+                            <p>Cuenta con un poderoso aliado para tus operaciones de cobro, obteniendo una calidad de servicio inigualable.</p>
+                            <a href="#" class="text-secondary fw-bold text-decoration-none">
+                                Sé contactado por un asesor
+                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/capa_1.svg" loading="eager" style=""/>
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

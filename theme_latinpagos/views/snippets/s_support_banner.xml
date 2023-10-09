@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_support_banner" name="Banner">
+        <section class="business_sales pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <h2 class="text-secondary fw-bold mb32">Listos para <span class="text-primary">apoyarte</span></h2>
+                <div class="row">
+                    <div class="col-xl-6 text-center text-xl-start o_colored_level o_animate o_anim_slide_in o_anim_from_left" style="">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/support_form_img.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip311328"/>
+                    </div>
+                    <div class="col-xl-6 o_colored_level o_animate o_anim_slide_in o_anim_from_right" style="">
+                        <h2 class="mb-3 text-secondary fw-bold mt-3 mt-xl-0">Impulsa las ventas de tu negocio</h2>
+                        <section class="s_tabs o_colored_level" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: none;">
+                            <div class="container">
+                                <div class="s_tabs_main">
+                                    <div class="s_tabs_nav mb-3">
+                                        <ul class="nav nav-pills justify-content-center justify-content-xl-start" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link o_default_snippet_text d-flex align-items-center active" id="nav_tabs_link_1692176111803_167" data-bs-toggle="tab" href="#nav_tabs_content_1692176111803_167" role="tab" aria-controls="nav_tabs_content_1692176111803_167" aria-selected="true"><img class="img img-fluid me-2" src="/theme_latinpagos/static/src/img/user_svg.svg"/>Persona Natural</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link o_default_snippet_text d-flex align-items-center" id="nav_tabs_link_1692176111803_168" data-bs-toggle="tab" href="#nav_tabs_content_1692176111803_168" role="tab" aria-controls="nav_tabs_content_1692176111803_168" aria-selected="false"><img class="img img-fluid me-2" src="/theme_latinpagos/static/src/img/building_svg.svg"/>Persona Jurídica</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="s_tabs_content tab-content">
+                                        <div class="tab-pane fade show active" id="nav_tabs_content_1692176111803_167" role="tabpanel" aria-labelledby="nav_tabs_link_1692176111803_167">
+                                            <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+                                        </div>
+                                        <div class="tab-pane fade" id="nav_tabs_content_1692176111803_168" role="tabpanel" aria-labelledby="nav_tabs_link_1692176111803_168">
+                                            <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

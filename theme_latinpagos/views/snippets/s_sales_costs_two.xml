@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_sales_costs_two" name="Costs Two">
+        <section class="sales_costs_two pt48 pb48 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/ventas-curva-naranja.svg&quot;);">
+            <div class="container o_animate o_anim_zoom_in o_anim_from_bottom o_animate_both_scroll o_visible" style="">
+                <section class="rounded_16 overflow-hidden d-flex oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/sales_costs_two_img.png&quot;);">
+                    <section class="costs_img w-xl-50 d-none d-xl-block">
+                    </section>
+                    <section class="costs_content w-xl-50 d-inline-flex flex-column gap-3 bg-white h-100 p_32 o_colored_level" style="background-image: none;">
+                        <div><a href="#" class="btn btn-primary fw-bold rounded-circle">TUS ALIADOS</a></div>
+                        <h2 class="text-primary mb-0">
+                            Presentes en más de 200 Agencias BNC a nivel nacional
+                        </h2>
+                        <p class="my-0">
+                            Contacta a tu ejecutivo Latin Pagos y consigna los recaudos en
+                            tu Agencia BNC más cercana.
+                        </p>
+                        <a href="#" class="text-primary fw-bold text-decoration-none">
+                            Más información sobre nuestros aliados
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/vector-1.svg" loading="eager" style=""/>
+                        </a>
+                    </section>
+                </section>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

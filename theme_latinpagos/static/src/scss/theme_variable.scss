@@ -1,0 +1,214 @@
+$primarycolor: #f95c04 !default;
+$secondarycolor:#6d6e71 !default;
+$deltacolor: #1a212e !default;
+$primarygamma: #ffeded !default;
+$ptextcolor: #b2b2b2 !default;
+
+$o-theme-h1-font-size-multiplier: 4;
+$o-theme-h2-font-size-multiplier: 3;
+$o-theme-h3-font-size-multiplier: 2;
+$o-theme-h4-font-size-multiplier: 1.5;
+$o-theme-h5-font-size-multiplier: 1.25;
+$o-theme-h6-font-size-multiplier: 0.75;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1440px,
+) !default;
+
+$o-website-values-palettes: ((
+
+        // 'font-size-base': 0.875rem,
+        'btn-border-radius': 0.75rem,
+        'btn-border-radius-sm': 0.75rem,
+        'btn-border-radius-lg': 0.75rem,
+        'input-border-radius': 0.25rem,
+        'input-border-radius-sm': 0.25rem,
+        'input-border-radius-lg': 0.25rem,
+    
+        // Font
+        'font': 'Inter',
+        'headings-font': 'Signika',
+        'navbar-font': 'Inter',
+        'buttons-font': 'Inter',
+
+        'h1-font': 'Signika',
+        'h2-font': 'Signika',
+        'h3-font': 'Signika',
+        'h4-font': 'Signika',
+        'h5-font': 'Signika',
+        'h6-font': 'Signika',
+
+        'h1-font-size': 64px,
+        'h2-font-size': 48px,
+        'h3-font-size': 32px,
+        'h4-font-size': 24px,
+        'h5-font-size': 20px,
+        'h6-font-size': 14px,
+
+    ),
+);
+
+
+/* -------------------------- Main Colors ------------------------*/
+$o-color-palettes: map-merge($o-color-palettes,
+    (
+        'base-1': map-merge(map-get($o-color-palettes, 'base-1'), (
+            'o-color-1': $primarycolor,
+            'o-color-2': $secondarycolor,
+            'o-color-3': $primarygamma,
+            'o-color-4': $deltacolor,
+            'o-color-5': $ptextcolor,
+            // 'footer':2,
+                            
+        )),
+    )
+);
+
+/* -------------------------- Text Colors ------------------------*/
+$o-base-gray-color-palette: ('white': #FFFFFF,
+    '100': #F8F9FA,
+    '200': #E9ECEF,
+    '300': #DEE2E6,
+    '400': #b4b4b4,
+    '500': #888,
+    '600': #666666,
+    '700': #1a212e,
+    '800': #888888,
+    '900': #121212,
+    'black': #000000,
+);
+
+$o-base-color-combination: (
+    'bg': 'white',
+    'text': #999999, // Default to better contrast with the 'bg'
+    'headings': #000000, // Default to 'text'
+    'h2': #000000, // Default to 'h(x-1)'
+    'h3': #000000,
+    'h4': #000000,
+    'h5': #000000,
+    'h6': #000000,
+    'link': null, // Default to BS 'primary' (= first odoo color)
+    'btn-primary': null, // Default to BS 'primary' (= first odoo color)
+    'btn-primary-border': null, // Default to 'btn-primary'
+    'btn-secondary': null, // Default to BS 'secondary' (= second odoo color)
+    'btn-secondary-border': null, // Default to 'btn-secondary'
+) !default;
+
+$o-color-combinations-presets: ((('bg': #f9f9f9,
+            'text': '900',
+            'headings': '900',
+            'link': '900',
+            'btn-primary': 'o-color-1',
+            'btn-secondary': 'o-color-2',
+        ),
+        ('bg': 'white',
+            'text': 'black',
+            'heading': 'o-color-1',
+            'link': 'o-color-1',
+            'btn-primary': 'o-color-1',
+            'btn-secondary': 'o-color-2',
+        ),
+        ('bg': 'white',
+            'text': '900',
+            'headings': '900',
+            'link': 'o-color-5',
+            'btn-primary': 'o-color-2',
+            'btn-secondary': 'o-color-3',
+        ),
+        ('bg': 'white',
+            'text': '900',
+            'headings': '900',
+            'link': '900',
+            'btn-primary': 'o-color-1',
+            'btn-secondary': 'o-color-3',
+        ),
+        ('bg':#666666,
+            'text': 'white',
+            'headings': 'white',
+            'link': 'white',
+            'btn-primary': 'o-color-1',
+            'btn-secondary': 'o-color-2',
+        ),
+    ),
+);
+$o-color-combinations-preset-number: 1;
+/* -------------------------- Color Pallets ------------------------*/
+
+// You can as many pallets you want 
+$o-color-palettes: (('o-color-1': $primarycolor,
+        'o-color-2': $secondarycolor,
+        'o-color-3': $primarygamma,
+        'o-color-4': $deltacolor,
+        'o-color-5': #eeeeee,
+
+        'menu': #1a212e,
+        'footer': #1a212e,
+        'copyright': #1a212e,
+    ),
+    ('o-color-1': $primarycolor,
+        'o-color-2': $deltacolor,
+        'o-color-3': $primarygamma,
+        'o-color-4': #ffffff,
+        'o-color-5': #eeeeee,
+
+        'menu': $deltacolor,
+        'footer': $deltacolor,
+        'copyright': $deltacolor,
+    ),
+) !default;
+$o-color-palette-number: 1 !default;
+
+/* -------------------------- fonts -----------------------------*/
+
+$o-theme-font-configs: (
+    'Inter': ('family': ('Inter',null),
+        'url': 'Inter:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i',    
+    ),
+    'Signika': ('family': ('Signika',null),
+        'url': 'Signika:300,300i,400,400i,500,500i,600,600i,700,700i',    
+    ),
+    'Montserrat': ('family': ('Montserrat',null),
+        'url': 'Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i',    
+    ),
+    'Poppins': ('family': ('Poppins',null),
+        'url': 'Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i',    
+    ),
+    'Work Sans': ('family': ('Work Sans',null),
+        'url': 'Work Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i',
+    ),
+    'Rubik': ('family': ('Rubik',null),
+        'url': 'Rubik:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i',
+    ),
+    'Roboto': (
+        'family': ('Roboto', sans-serif),
+        'url': 'Roboto:300,300i,400,400i,700,700i',
+    ),
+    'Syne': (
+        'family': ('Syne', null),
+        'url': 'Syne:300,300i,400,400i,700,700i',
+    ),
+    'Open Sans': (
+        'family': ('Open Sans', sans-serif),
+        'url': 'Open+Sans:300,300i,400,400i,700,700i',
+    ),
+    'Source Sans Pro': (
+        'family': ('Source Sans Pro', sans-serif),
+        'url': 'Source+Sans+Pro:300,300i,400,400i,700,700i',
+    ),
+    'Raleway': (
+        'family': ('Raleway', sans-serif),
+        'url': 'Raleway:300,300i,400,400i,700,700i',
+    ),
+    'Noto Serif': (
+        'family': ('Noto Serif', serif),
+        'url': 'Noto+Serif:300,300i,400,400i,700,700i',
+    ),
+    'Arvo': (
+        'family': ('Arvo', Times, serif),
+        'url': 'Arvo:300,300i,400,400i,700,700i',
+    ),
+   
+);

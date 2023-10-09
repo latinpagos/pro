@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_aboutus_fullpage" name="Aboutus Fullpage">
+        <section class="about_banner pt16 pb16 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 my-3 my-xl-0 o_colored_level o_animate o_anim_slide_in o_anim_from_left o_visible" style="">
+                        <div class="w-100">
+                            <h2 class="text-primary mt-1 fw-bold">Creamos <span class="text-secondary">soluciones </span>
+                                <br/>
+                                que van más allá para ti</h2>
+                            <p class="my-3">
+                                Somos una empresa que ofrece soluciones tecnológicas, para
+                                potenciar y optimizar los negocios de los clientes.
+                            </p>
+                            <p class="my-3">
+                                Promovemos la innovación que permite mejorar tu futuro.
+                            </p>
+                            <section class="d-inline-flex gap-3 px-4 py-3 rounded_16 o_colored_level" style="background-image: radial-gradient(37.3% 110.46% at 50% 49.91%, rgb(255, 127, 0) 0%, rgb(249, 92, 4) 100%);">
+                                <img src="/theme_latinpagos/static/src/img/icon-clientes-satisfechos.svg" loading="eager" style=""/>
+                                <h4 class="text-white fw-bold mb-0">
+                                    Más de 5.000 <font style="color: rgb(255, 218, 149);">clientes</font>
+                                    <font style="color: rgb(255, 217, 160);">​</font>
+                                    <br/>
+                                    <font style="color: rgb(255, 218, 144);">satisfechos</font>
+                                    <font style="color: rgb(255, 217, 160);"></font>
+                                    <font style="background-color: inherit;" class="text-white">en Venezue</font>
+                                    <font class="text-white" style="background-color: inherit;">la.</font>
+                                </h4>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 my-3 my-xl-0 text-center o_colored_level o_animate o_anim_slide_in o_anim_from_right o_visible" style="">
+                        <img class="img img-fluid rounded_16" src="/theme_latinpagos/static/src/img/about_banner_img1.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip371512"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="about_mission pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 my-2 o_colored_level o_animate o_anim_slide_in o_anim_from_bottom o_visible" style="">
+                        <section class="h-100 rounded_16 p_32 o_colored_level" style="background-image: radial-gradient(37.3% 110.46% at 50% 49.91%, rgb(255, 127, 0) 0%, rgb(249, 92, 4) 100%);">
+                            <div class="mision_item">
+                                <img src="/theme_latinpagos/static/src/img/icon-mision.svg" loading="eager" style=""/>
+                                <h1 class="my-3 text-white fw-bold">Misión</h1>
+                                <p class="text-white">
+                                    Estar a la vanguardia de las soluciones financieras de pagos.
+                                    Facilitándoles el día a día al cliente, permitiéndole impulsar su
+                                    negocio, acompañado de un servicio de calidad orientado en mejorar
+                                    la experiencia de usuario.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4 my-2 o_colored_level o_animate o_anim_slide_in o_anim_from_bottom o_visible" style="">
+                        <section class="h-100 rounded_16 p_32 o_colored_level" style="background-image: radial-gradient(37.3% 110.46% at 50% 49.91%, #ff7f00 0%, #f95c04 100%);">
+                            <div class="mision_item">
+                                <img src="/theme_latinpagos/static/src/img/icon-vision.svg" loading="eager" style=""/>
+                                <h1 class="my-3 text-white fw-bold">Visión</h1>
+                                <p class="text-white">
+                                    Ser la solución financiera de medios de pago más novedosa del mercado. Enfocados en la mejor experiencia de usuario y capacitación para el uso de nuestros productos y servicios. Logrando mejorar las finanzas empresariales y personales de cada cliente.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4 my-2 o_colored_level o_animate o_anim_slide_in o_anim_from_bottom o_visible" style="">
+                        <section class="h-100 rounded_16 p_32 o_colored_level" style="background-image: radial-gradient(37.3% 110.46% at 50% 49.91%, #ff7f00 0%, #f95c04 100%);">
+                            <div class="mision_item">
+                                <img src="/theme_latinpagos/static/src/img/icon-valores.svg" loading="eager" style=""/>
+                                <h1 class="my-3 text-white fw-bold">Valores</h1>
+                                <ul>
+                                    <li class="mb-3 text-white">Excelencia</li>
+                                    <li class="mb-3 text-white">Compromiso</li>
+                                    <li class="mb-3 text-white">Honestidad</li>
+                                    <li class="mb-3 text-white">Innovación</li>
+                                    <li class="mb-3 text-white">Liderazgo y Responsabilidad</li>
+                                    <li class="mb-3 text-white">Trabajo en Equipo</li>
+                                    <li class="mb-3 text-white">Solidaridad</li>
+                                    <li class="mb-3 text-white">Pasión</li>
+                                    <li class="mb-3 text-white">Confidencialidad</li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="about_img_text one pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 my-3 text-center o_colored_level o_anim_slide_in o_anim_from_left o_animate o_animate_both_scroll" style="">
+                        <img class="img img-fluid rounded_16" src="/theme_latinpagos/static/src/img/about_img_text_img1.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip644559"/>
+                    </div>
+                    <div class="col-xl-6 my-3 o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll" style="">
+                        <h2 class="my-3">Pontenciamos emprendedores.</h2>
+                        <p>Facilita a tus clientes el pago de sus compras, a través de Puntos de Venta de última tecnología, capaces de procesar tarjetas o transacciones sin contacto en cuestión de pocos segundos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="about_img_text two pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 my-3 o_colored_level o_animate o_anim_slide_in o_anim_from_left o_animate_both_scroll" style="">
+                        <h2 class="my-3">Nos mantenemos a tu lado.</h2>
+                        <p>Cuentas con atención y soporte técnico, disponibles para ti, a través de múltiples formas de contacto.</p>
+                        <div class="about_contact">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img img-fluid me-3" src="/theme_latinpagos/static/src/img/ib_s4_phone.svg" loading="eager" style=""/>
+                                <span class="fw-bold">Atención al Cliente: </span>
+                                <span>(0212) 597.87.49 / Ventas: (0212) 954.75.82</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img img-fluid me-3" src="/theme_latinpagos/static/src/img/ib_s4_whatsapp.svg" loading="eager" style=""/>
+                                <span class="fw-bold">WhatsApp: </span>
+                                <span>(0412) 262.11.11</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img img-fluid me-3" src="/theme_latinpagos/static/src/img/ib_s4_mail.svg" loading="eager" style=""/>
+                                <span class="fw-bold">Correo: </span>
+                                <span>ventas@latin-pagos.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 my-3 text-center o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll" style="">
+                        <img class="img img-fluid rounded_16" src="/theme_latinpagos/static/src/img/about_img_text_img2.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip501259"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="about_img_text one pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 my-3 text-center o_colored_level o_anim_slide_in o_anim_from_left o_animate o_animate_both_scroll" style="">
+                        <img class="img img-fluid rounded_16" src="/theme_latinpagos/static/src/img/artboard-15-100-9.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip644559"/>
+                    </div>
+                    <div class="col-xl-6 my-3 o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll" style="">
+                        <h2 class="my-3">We drive growth.</h2>
+                        <p>From small, medium and large businesses, to enterprises and individuals,<br/>Latin Payments is the technological solution for more than 3,500 companies in Venezuela.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="about_boost two pt64 pb64 o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(&quot;/theme_latinpagos/static/src/img/curve-white-top-suma-un-punto.svg&quot;), radial-gradient(38.15% 94.16% at 50% 50%, rgb(255, 127, 0) 0%, rgb(249, 92, 4) 100%);">
+            <div class="container o_animate o_anim_zoom_in o_animate_both_scroll" style="">
+                <h2 class="text-white fw-bold text-center">Suma un PUNTO a tu favor</h2>
+                <p class="text-white text-center">En Latin Pagos no solo apostamos por el futuro, sino también por el éxito y el crecimiento de tu empresa.</p>
+                <div class="row">
+                    <div class="col-lg-4 boost_contant o_colored_level" style="">
+                        <div class="h-100 text-center py-5 py-lg-0">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/icon-2-colors-primer-paso.svg" style="" loading="eager"/>
+                            <h2 class="mt32 mb32 text-white">Da el primer paso</h2>
+                            <a href="#" class="text-white text-decoration-none">
+                                Conoce los requisitos
+                                <img class="img img-fluid ms-2" src="/theme_latinpagos/static/src/img/vector-3.svg" style="" loading="eager"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 boost_contant o_colored_level" style="">
+                        <div class="h-100 text-center py-5 py-lg-0">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/icon-2-colors-financiamiento.svg" loading="eager" style=""/>
+                            <h2 class="mt32 mb32 text-white">Financiamiento</h2>
+                            <a href="#" class="text-white text-decoration-none">
+                                Solicita tu equipo
+                                <img class="img img-fluid ms-2" src="/theme_latinpagos/static/src/img/vector-3.svg" loading="eager" style=""/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 boost_contant">
+                        <div class="h-100 text-center py-5 py-lg-0">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/icon-2-colors-soporte-tecnico.svg" loading="eager" style=""/>
+                            <h2 class="mt32 mb32 text-white">Soporte técnico</h2>
+                            <a href="#" class="text-white text-decoration-none">
+                                Contáctanos
+                                <img class="img img-fluid ms-2" src="/theme_latinpagos/static/src/img/vector-3.svg" loading="eager" style=""/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="about_offers pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-4 d-none d-xl-block o_colored_level o_animate o_anim_slide_in o_anim_from_left o_animate_both_scroll" style="">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/frame-192.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip700929"/>
+                    </div>
+                    <div class="col-xl-8 o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll" style="">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/bnc_logo-2.svg" loading="eager" style=""/>
+                        <h2 class="mt32 mb32 fw-bold">Aliados que marcan la diferencia.</h2>
+                        <p>
+                            Nuestros aliados son tus aliados. Con el BNC, cuentas con una
+                            plataforma bancaria segura, y el respaldo de veinte años de
+                            destacada trayectoria y experiencia en el sector financiero del
+                            país.
+                        </p>
+                        <a href="#" class="d-flex mt32 gap-2 align-items-center text-decoration-none" data-bs-original-title="" title="">
+                            <img src="/theme_latinpagos/static/src/img/icon-ubicacion.svg" loading="eager" style=""/>
+                            Más de 200 Agencias
+                            BNC a tu disposición
+                            <img src="/theme_latinpagos/static/src/img/vector-1.svg" loading="eager" style=""/>
+                        </a>
+                        <div class="d-flex flex-wrap gap-4 py-5">
+                            <a href="#" class="btn btn-lg btn-primary fw-bold">Adquiérelo ahora</a>
+                            <a href="#" class="btn btn-lg btn-outline-primary fw-bold">Pasos para la compra</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="about_payments pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <h1 class="text-primary text-center">Ellos han confiado en Latin Pagos.</h1>
+                <section class="s_carousel_wrapper o_animate o_anim_zoom_in o_animate_both_scroll" data-vxml="001" data-snippet="s_carousel" data-name="Carousel" style="">
+                    <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000" id="offerfullpage_payments_myCarousel1692182278612345" style="background-image: none;">
+                        <ol class="carousel-indicators o_we_no_overlay">
+                            <li data-bs-slide-to="0" data-bs-target="#offerfullpage_payments_myCarousel1692182278612345" class="active" aria-current="true"/>
+
+                            <li data-bs-target="#offerfullpage_payments_myCarousel1692182278612345" data-bs-slide-to="1"/>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item pt32 pb32 o_colored_level active" data-name="Slide" style="background-image: none;">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2 o_colored_level">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip668940"/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item pt32 pb32 o_colored_level" data-name="Slide" style="background-image: none;">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#offerfullpage_payments_myCarousel1692182278612345">
+                            <span class="carousel-control-prev-icon"/>
+                            <span class="visually-hidden o_default_snippet_text">Previous</span>
+                        </a>
+                        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#offerfullpage_payments_myCarousel1692182278612345">
+                            <span class="carousel-control-next-icon"/>
+                            <span class="visually-hidden o_default_snippet_text">Next</span>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

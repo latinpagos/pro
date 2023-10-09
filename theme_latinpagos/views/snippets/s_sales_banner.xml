@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_sales_banner" name="Banner">
+        <section class="sales_banner pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container" style="">
+                <h1 class="text-center text-primary fw-bold">La <span class="text-secondary">solución</span> para tu negocio</h1>
+                <section class="d-flex sales_banner_points gap-4 flex-wrap align-items-center justify-content-center pt32 o_colored_level o_animate o_anim_zoom_in o_anim_from_bottom" style="background-image: none;">
+                    <div class="gap-2 d-flex align-items-center">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check.svg" style="" loading="eager"/>
+                        <span class="fw-bold">Tecnología innovadora</span>
+                    </div>
+                    <div class="gap-2 d-flex align-items-center">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check.svg" style="" loading="eager"/>
+                        <span class="fw-bold">Soporte técnico 24/7</span>
+                    </div>
+                    <div class="gap-2 d-flex align-items-center">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check.svg" style="" loading="eager"/>
+                        <span class="fw-bold">Opciones de financiamiento</span>
+                    </div>
+                    <div class="gap-2 d-flex align-items-center">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check.svg" style="" loading="eager"/>
+                        <span class="fw-bold">Plataforma robusta</span>
+                    </div>
+                </section>
+            </div>
+            <section class="sales_banner_img pt32 pb32 mt48 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/lo-que-ofrecemos-pos-background.png&quot;); background-size: 2560px 480px;">
+                <div class="container">
+                    <img class="img img-fluid mx-auto o_animate o_anim_zoom_in o_anim_from_bottom" src="/theme_latinpagos/static/src/img/lo-que-ofrecemos-pos-kv.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip548528"/>
+                </div>
+            </section>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

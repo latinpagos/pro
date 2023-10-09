@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_index_financing" name="Financing">
+        <section class="index_financing oe_img_bg o_bg_img_center pt48 pb48" style="background-image:url('/theme_latinpagos/static/src/img/bg-chat-quidchat 1.png')">
+            <div class="container">
+                <h4 class="text-center">We offer you plans</h4>
+                <h1 class="text-center text-primary fw-bold">Financiamiento</h1>
+                <h4 class="text-center">para adquirir tu POS</h4>
+                <div class="row pt48 pb48">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="index_finance_content text-center">
+                            <img class="img img-fluid main_img" src="/theme_latinpagos/static/src/img/index_finance_img1.png" loading="lazy" style=""/>
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ellipse-1.svg" loading="lazy" style=""/>
+                            <h4 class="fw-bold">Selecciona el equipo de tu preferencia</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="index_finance_content text-center">
+                            <img class="img img-fluid main_img" src="/theme_latinpagos/static/src/img/index_finance_img2.webp" loading="lazy" style=""/>
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ellipse-1.svg" loading="lazy" style=""/>
+                            <h4 class="fw-bold">Selecciona el equipo de tu preferencia</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="index_finance_content text-center">
+                            <img class="img img-fluid main_img" src="/theme_latinpagos/static/src/img/index_finance_img3.webp" loading="lazy" style=""/>
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ellipse-2.svg" loading="lazy" style=""/>
+                            <h4 class="fw-bold">Selecciona el equipo de tu preferencia</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="index_finance_content text-center">
+                            <img class="img img-fluid main_img" src="/theme_latinpagos/static/src/img/index_finance_img4.webp" loading="lazy" style=""/>
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ellipse-2.svg" loading="lazy" style=""/>
+                            <h4 class="fw-bold">Selecciona el equipo de tu preferencia</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

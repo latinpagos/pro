@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_support_medium" name="Medium">
+        <section class="salesand_medium pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-3 text-center my-auto">
+                        <h2 class="text-primary mb-0">Ventas</h2>
+                    </div>
+                    <div class="col-md-6 col-xl-3 text-center my-2 o_colored_level o_animate o_anim_flip_in_x" style="">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/support_sales_mobile.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip471012"/>
+                        <h4 class="text-primary mb-0">Llamadas</h4>
+                        <a href="#" class="text-decoration-none">+58 (0212) 954 75 82</a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 text-center my-2 o_colored_level o_animate o_anim_flip_in_x" style="animation-duration: 1.2s;">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/support_sales_mail.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip477585"/>
+                        <h4 class="text-primary mb-0">Correos</h4>
+                        <a href="#" class="text-decoration-none">ventas@latin-pagos.com</a>
+                        <a href="#" class="text-decoration-none">recaudos@latin-pagos.com</a>
+                    </div>
+                    <div class="col-md-6 col-xl-3 text-center my-2 o_colored_level o_animate o_anim_flip_in_x" style="animation-duration: 1.4s;">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/support_sales_wa.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip566179"/>
+                        <h4 class="text-primary mb-0">WhatsApp</h4>
+                        <a href="#" class="text-decoration-none">+58 (0412) 262 45 34</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

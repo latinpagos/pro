@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_offer_contact" name="Contacts">
+        <section class="offer_contact pt48 pb48">
+            <div class="container">
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#" class="btn btn-primary btn-lg fw-bold">Comprar</a>
+                    <a href="#" class="btn btn-outline-primary btn-lg fw-bold">Hablar con un asesor</a>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

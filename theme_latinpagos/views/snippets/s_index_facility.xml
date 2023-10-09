@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_index_facility" name="Facility">
+        <section class="index_facility pt64 pb64 bg-white">
+            <div class="container">
+                <div class="text-center w-lg-75 w-xl-50 mx-auto">
+                    <h2 class="text">Facilidades</h2>
+                    <p>
+                        Estamos enfocados en ofrecer medios de pagos tecnológicos adaptados a las necesidades de los clientes, brindando experiencia de usuario, optimizando los procesos de negocio y potenciando las ventas.
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-9 col-md-6 col-xl-3 text-center facility_content">
+                        <div class="py-3 h-100">
+                            <img class="img img-fluid facility_img" src="/theme_latinpagos/static/src/img/index_facility_img1.webp" loading="lazy" style=""/>
+                            <h5 class="mb-3">Bolívares / Dólares</h5>
+                            <p>Calculado a la tasa de cambio del BCV, vigente al momento de efectuar el pago.</p>
+                        </div>
+                    </div>
+                    <div class="col-9 col-md-6 col-xl-3 text-center facility_content">
+                        <div class="py-3 h-100">
+                            <img class="img img-fluid facility_img" src="/theme_latinpagos/static/src/img/index_facility_img2.webp" loading="lazy" style=""/>
+                            <h5 class="mb-3">Instalación</h5>
+                            <p>Tres (3) días hábiles en Caracas, y cinco (5) días hábiles en el interior del país.</p>
+                        </div>
+                    </div>
+                    <div class="col-9 col-md-6 col-xl-3 text-center facility_content">
+                        <div class="py-3 h-100">
+                            <img class="img img-fluid facility_img" src="/theme_latinpagos/static/src/img/index_facility_img3.webp" loading="lazy" style=""/>
+                            <h5 class="mb-3">Garantía</h5>
+                            <p>Válida por tres (3) meses, desde la compra del equipo.</p>
+                        </div>
+                    </div>
+                    <div class="col-9 col-md-6 col-xl-3 text-center facility_content">
+                        <div class="py-3 h-100">
+                            <img class="img img-fluid facility_img" src="/theme_latinpagos/static/src/img/index_facility_img4.webp" loading="lazy" style=""/>
+                            <h5 class="mb-3">Durabilidad</h5>
+                            <p>Dispositivos con alta resistencia que ofrecen un mayor nivel de funcionalidad.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <a class="btn btn-lg btn-primary fw-bold mt-4" href="#">Más de Latin Pagos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

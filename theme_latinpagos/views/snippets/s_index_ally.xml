@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_index_ally" name="Ally">
+        <section class="index_ally pt48 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/index_ally_bg.webp&quot;);">
+            <div class="container">
+                <div class="bnc_logo text-center">
+                    <img class="img img-fluid" src="/theme_latinpagos/static/src/img/bnc_logo.svg" loading="lazy" style=""/>
+                    <h2 class="text-primary fw-bold">Nuestro principal aliado</h2>
+                    <section class="pt240 pb240 map_img o_bg_img_center" style="background-image: url(&quot;/theme_latinpagos/static/src/img/mapa-venezuela.svg&quot;);">
+                        <h4 class="text-primary fw-bold my-5">Experiencia que nos lleva a todo el país</h4>
+                    </section>
+                </div>
+            </div>
+
+            <section class="text-center ally_subsection pb24 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/arrow-bg-bottom-gray.svg&quot;);">
+                <img class="img img-fluid mb-5 menus_img o_animate o_animate_both_scroll o_anim_flip_in_y" src="/theme_latinpagos/static/src/img/index_service.svg" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip514653"/>
+                <h1 class="fw-bold">Costo del servicio</h1>
+                <h3 class="text-primary fw-bold">Es un ahorro</h3>
+                <i class="fa fa-chevron-down text-primary fa-3x" data-bs-original-title="" title="" aria-describedby="tooltip513380"/>
+            </section>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

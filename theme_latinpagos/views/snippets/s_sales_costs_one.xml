@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_sales_costs_one" name="Costs One">
+        <section class="sales_costs pt48 pb48 o_colored_level" style="background-image: radial-gradient(37.3% 110.46% at 50% 49.91%, rgb(255, 127, 0) 0%, rgb(249, 92, 4) 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 o_colored_level o_animate o_animate_both_scroll o_anim_slide_in o_anim_from_left o_visible" style="">
+                        <section class="bg-white rounded_16 p_32 h-100 o_colored_level" style="background-image: none;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 mb-3 mb-lg-0 gap-3 d-flex flex-column align-items-start">
+                                        <h5 class="bg-warning rounded_16 fw-bold p-3 mb-0 d-inline-block">¡DILE NO A LOS CARGOS OCULTOS!</h5>
+                                        <h2 class="fw-bold mb-0">Disminuye los costos, eligiendo un único proveedor de servicios</h2>
+                                        <p class="mb-0">
+                                            Incrementa la rentabilidad y disminuye los costos, ofreciendo
+                                            a tus clientes poder pagar de forma rápida y eficiente.
+                                        </p>
+                                        <h2 class="text-success mb-0 fw-bold">
+                                            $25 <small>/ al mes</small>
+                                        </h2>
+                                        <div class="w-100">
+                                            <a href="#" class="btn btn-outline-primary fw-bold btn-lg">Habla con un asesor</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <p class="mb-5">
+                                            Disfruta de todas las ventajas que Latin Pagos tiene para ti:
+                                        </p>
+                                        <section class="d-flex align-items-center mb-3 gap-2">
+                                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="eager" style=""/>
+                                            Pago al contado o financiado.
+                                        </section>
+                                        <section class="d-flex align-items-center mb-3 gap-2">
+                                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="eager" style=""/>
+                                            Plataforma robusta.
+                                        </section>
+                                        <section class="d-flex align-items-center mb-3 gap-2">
+                                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="eager" style=""/>
+                                            Tecnología de punta.
+                                        </section>
+                                        <section class="d-flex align-items-center mb-3 gap-2">
+                                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="eager" style=""/>
+                                            Precios accesibles.
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xl-4 my-3 my-xl-0 o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll o_visible" style="">
+                        <div class="h-100">
+                            <img class="img img-fluid rounded_16 d-none d-xl-block" src="/theme_latinpagos/static/src/img/sales_costs_img1.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip93219"/>
+                            <p class="my-3 text-white">
+                                “Nuestros puntos están siempre activos, y eso nos quita una gran
+                                preocupación de encima. Por fin podemos enfocarnos en otras
+                                partes del negocio.”
+                            </p>
+                            <div class="d-flex gap-3">
+                                <img class="img img-fluid rounded-circle" src="/theme_latinpagos/static/src/img/ellipse-13.png" loading="eager" style=""/>
+                                <div>
+                                    <span class="text-white"><b>Juan González</b></span>
+                                    <p class="text-white mb-0">Propietario / Yantares</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

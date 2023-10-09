@@ -1,0 +1,468 @@
+.rounded_16{
+    border-radius: 16px;
+}
+.p_32{
+    padding: 32px;
+}
+@mixin carousel_prev_next{
+    .s_carousel_default{
+        .carousel-indicators{
+            display: none !important;
+        }
+        .carousel-control-prev,.carousel-control-next{
+            .carousel-control-prev-icon,.carousel-control-next-icon{
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 70px;
+                height: 70px;
+                background-color: transparent !important;
+                transition: 0.2s;
+                @media (max-width: 1198.98px){
+                    width: 54px;
+                    height: 54px;
+                }
+                @media (max-width: 767.98px){
+                    width: 30px;
+                    height: 30px;
+                }
+                &::before{
+                    color: #000 !important;
+                    margin: auto !important;
+                    font-size: 36px;
+                }
+            }
+            .carousel-control-prev-icon{
+                @media (min-width: 1200px){
+                    margin-left: 32px;
+                }
+                &::before{
+                    content: "\f104" !important;
+                }
+                &:hover{
+                    background-color: $primary !important;
+                }
+            }
+            .carousel-control-next-icon{
+                @media (min-width: 1200px){
+                    margin-right: 32px;
+                }
+                &::before{
+                    content: "\f105" !important;
+                }
+                &:hover{
+                    background-color: $primary !important;
+                }
+            }
+        }
+    }
+}
+@mixin tabs_pills{
+    .nav-pills{
+        .nav-item{
+            .nav-link{
+                font-weight: 700;
+                line-height: 1 !important;
+                padding: 24px 16px !important;
+                background-color: transparent !important;
+                color: $primary !important;
+                border-bottom: 2px solid transparent;
+                border-radius: 0 !important;
+                transition: 0.2s;
+                &:hover,&.active{
+                    color: #ffffff !important;
+                    background-color: #b2b2b2 !important;
+                    border-color: $primary !important;
+                }
+            }
+        }
+    }
+}
+.index_banner{
+    .carousel-item.active{
+        display: flex;
+        align-items: center;
+    }
+    @include carousel_prev_next;
+    .slide1_content{
+        border-radius: 16px;
+        .icon_img{
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .business_growth{
+            transform: translateY(50%);
+            margin: 0 -100px;
+            @media (max-width: 767px){
+                margin: 0;
+                transform: translateY(31px);
+            }
+            .growth_content{
+                padding: 6px 16px;
+                box-shadow: 0 0 10px #ccc !important;
+                &:hover{
+                    background-color: #fff !important;
+                }
+            }
+        }
+    }
+    .ib_s3_logo{
+        max-width: 220px;
+    }
+    .s5_content{
+        border-radius: 16px;
+        position: relative;
+        .s5_btn{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%,50%);
+        }
+    }
+    .ib_s6_img{
+        max-width: 240px;
+    }
+}
+.index_connection_technology{
+    background-size: 100% auto, 100% auto, cover;
+    background-position: center top, center bottom, center bottom;
+    background-repeat: no-repeat;
+    .index_connection_technology_pos_btn{
+        transition: 0.2s;
+        &:hover{
+            background-color: $success !important;
+            color: #ffffff !important;
+            border-color: $success !important;
+        }
+    }
+    @include tabs_pills;
+    .tab-pane{
+        .technology_img{
+            max-width: 200px;
+        }
+        ul{
+            li{
+                border-bottom: 1px solid #ffcc7e;
+                &:first-child{
+                    border-top: 1px solid #ffcc7e;
+                }
+            }
+        }
+        .title_content{
+            .title{
+                font-size: 7.5rem;
+                @media (max-width: 767.98px){
+                    font-size: 5rem;
+                }
+                @media (max-width: 379.98px){
+                    font-size: 3rem;
+                }
+            }
+            .sub_title{
+                font-size: 2.24rem;
+                @media (max-width: 767.98px){
+                    font-size: 1.5rem;
+                }
+                @media (max-width: 379.98px){
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+.index_facility{
+    .facility_content{
+        @media (min-width: 1200px){
+            border-right: 1px solid #ccc;
+            &:last-child{
+                border-right: 0px solid #ccc;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 1199.98px){
+            border-right: 1px solid #ccc;
+            &:nth-child(even){
+                border-right: 0px solid #ccc;
+            }
+        }
+        @media (max-width: 767.98px){
+            border-bottom: 1px solid #ccc;
+            &:last-child{
+                border-bottom: 0px solid #ccc;
+            }
+        }
+        .facility_img{
+            max-height: 160px;
+        }
+    }
+}
+.index_finance_content{
+    .main_img{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        transition: all linear 1s;
+        -moz-transition: all linear 1s;
+        -webkit-transition: all linear 1s;
+        -o-transition: all linear 1s;
+        -ms-transition: all linear 1s;
+        
+        animation: ball .8s linear infinite alternate;
+        -moz-animation: ball .8s linear infinite alternate;
+        -webkit-animation: ball .8s linear infinite alternate;
+        -o-animation: ball .8s linear infinite alternate;
+        -ms-animation: ball .8s linear infinite alternate;
+        
+        
+        @-webkit-keyframes ball{
+            0% {transform: translateY(-2px);}
+            100% {transform: translateY(2px);}	
+        }
+        
+        @keyframes ball{
+            0% {transform: translateY(-2px);}
+            100% {transform: translateY(2px);}	
+        }
+    }
+}
+.index_support{
+    .support_img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        background-image: url('/theme_latinpagos/static/src/img/icon-soporte-foto-background.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+.index_ally{
+    .menus_img{
+        max-width:400px;
+    }
+    .ally_subsection{
+        background-position: center bottom, center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+// support page
+.business_sales{
+    .s_tabs{
+        @include tabs_pills;
+    }
+    .s_website_form{
+        .s_website_form_input{
+            background-color: #fff !important;
+            border: 1px solid #cecece !important;
+            color: #333 !important;
+            outline: none !important;
+            box-shadow: none !important;
+            font-family: "Montserrat", sans-serif;
+            min-height: 40px;
+            font-size: 13px;
+        }
+        .form_warning{
+            font-size: 80%;
+        }
+    }
+}
+.support_types{
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .type_content{
+        padding: 32px;
+        border-top: 2px solid $primary;
+        border-radius: 16px;
+    }
+}
+.support_tabs_two{
+    @include tabs_pills;
+    .support_content{
+        .support_column{
+            border-right: 1px solid #cecece;
+            &:last-child{
+                border: none;
+            }
+            @media (max-width: 767.98px){
+                border-right: 0px solid #cecece;
+                border-bottom: 1px solid #cecece;
+                &:last-child{
+                    border: none;
+                }
+            }
+            .support_img{
+                background-image: url('/theme_latinpagos/static/src/img/icon-soporte-foto-background.svg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+// offer page
+.offer_banner{
+    @include tabs_pills;
+    .offer_banner_carousel_content{
+        .offer_img{
+            @media (min-width: 768px){
+                width: 500px;
+            }
+            img{
+                max-height: 600px;
+            }
+        }
+        .offer_list{
+            @media (min-width: 768px){
+                width: 500px;
+            }
+            li{
+                &::marker{
+                    font-size: 24px !important;
+                    color: $primary !important;
+                    line-height: 1 !important;
+                }
+            }
+        }
+    }
+    @include carousel_prev_next;
+}
+.offer_think{
+    background-repeat: no-repeat;
+    .offer_think_content{
+        padding: 32px;
+        border-radius: 6px;
+    }
+}
+.offer_equipment{
+    .equipment_content{
+        padding: 32px;
+        border-radius: 16px;
+        display: flex;
+        img{
+            width: fit-content;
+        }
+        .contado{
+            width: fit-content;
+            border-radius: 16px;
+        }
+    }
+}
+.offer_financing{
+    .financing_content{
+        padding: 32px 16px;
+        border-radius: 16px;
+        .col_item{
+            opacity: 0.3;
+            transition: 0.2s;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}
+// about page
+.about_mission{
+    ul{
+        li{
+            &::marker{
+                color: #fff !important;
+                font-size: 24px !important;
+                line-height: 1 !important;
+            }
+        }
+    }
+}
+.about_boost{
+    .boost_contant{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        &:last-child{
+            border-bottom: 0px solid;
+        }
+        @media (min-width: 991.98px){
+            border-right: 1px solid rgba(255, 255, 255, 0.4);
+            border-bottom: none;
+            &:last-child{
+                border-right: 0px solid;
+            }
+        }
+    }
+}
+.about_payments{
+    @include carousel_prev_next;
+    .s_carousel_default{
+        .carousel-control-prev,.carousel-control-next{
+            .carousel-control-prev-icon{
+                @media (min-width: 1200px){
+                    margin-left: -50px !important;
+                }
+            }
+            .carousel-control-next-icon{
+                @media (min-width: 1200px){
+                    margin-right: -50px !important;
+                }
+            }
+        }
+    }
+    .customer_img{
+        background-image: url('/theme_latinpagos/static/src/img/icon-soporte-foto-background.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+// Sales page
+.sales_applications{
+    .slider_num{
+        top: 32px;
+        right: 32px;
+        font-size: 40px;
+        width: 60px;
+        height: 60px;
+    }
+    .s_carousel_default{
+        .carousel-indicators{
+            bottom: -24px !important;
+            li{
+                border-radius: 50%;
+                width: 16px;
+                height: 16px;
+                background-color: #999999 !important;
+                &.active{
+                    background-color: $success !important;
+                }
+            }
+        }
+        .carousel-control-prev,.carousel-control-next{
+            display: none !important;
+        }
+    }
+}
+.sales_collections{
+    @include tabs_pills;
+}
+.index_ally{
+    .map_img{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+#particles-js {
+	canvas.particles-js-canvas-el {
+	    position: absolute;
+	    top: 0;
+	    z-index: -1;
+	}
+	z-index: 1;
+	position: relative;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: 50% 50%;
+}

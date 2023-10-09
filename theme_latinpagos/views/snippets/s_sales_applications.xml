@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_sales_applications" name="Applications">
+        <section class="s_carousel_wrapper sales_applications pt48 pb48 o_animate o_animate_both_scroll o_anim_zoom_in o_anim_from_bottom" data-vxml="001" data-snippet="s_carousel" data-name="Carousel" style="">
+            <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000000" id="sales_applications_myCarousel16921822786123456" style="background-image: none;">
+                <ol class="carousel-indicators o_we_no_overlay">
+                    <li data-bs-slide-to="0" data-bs-target="#sales_applications_myCarousel16921822786123456" class="active" aria-current="true"/>
+                    <li data-bs-slide-to="1" data-bs-target="#sales_applications_myCarousel16921822786123456"/>
+                    <li data-bs-slide-to="2" data-bs-target="#sales_applications_myCarousel16921822786123456"/>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item pt32 pb32 o_colored_level active" data-name="Slide" style="background-image: none;">
+                        <div class="container">
+                            <section class="bg-white p_32 rounded_16 position-relative o_colored_level" style="background-image: none;">
+                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ib_s5.svg" loading="eager" style=""/>
+                                <h2 class="text-primary fw-bold mb-0">Solicitud</h2>
+                                <p class="fw-lighter h4">Llenar Solicitud, enviar y consignar documentación en Agencias BNC o Latin Pagos</p>
+                                <div class="slider_num position-absolute fw-bold bg-success rounded-circle text-white d-flex align-items-center justify-content-center">1</div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt32 pb32 oe_img_bg o_bg_img_center o_colored_level" data-name="Slide" style="">
+                        <div class="container">
+                            <section class="bg-white p_32 rounded_16 position-relative">
+                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ventas-slider-3pasos-pagos.svg" loading="eager" style=""/>
+                                <h2 class="text-primary fw-bold mb-0">Pago</h2>
+                                <p class="fw-lighter h4">Realizar el pago del equipo depositando en las Cuentas BNC de Servicios Latin Pagos</p>
+                                <div class="slider_num position-absolute fw-bold bg-success rounded-circle text-white d-flex align-items-center justify-content-center">2</div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt32 pb32 oe_img_bg o_bg_img_center o_colored_level" data-name="Slide" style="">
+                        <div class="container">
+                            <section class="bg-white p_32 rounded_16 position-relative">
+                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ventas-slider-3pasos-instalacion.svg" loading="eager" style=""/>
+                                <h2 class="text-primary fw-bold mb-0">Programa y entrega POS</h2>
+                                <p class="fw-lighter h4">Instalación Exitosa</p>
+                                <div class="slider_num position-absolute fw-bold bg-success rounded-circle text-white d-flex align-items-center justify-content-center">3</div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                
+                <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#sales_applications_myCarousel16921822786123456">
+                    <span class="carousel-control-prev-icon"/>
+                    <span class="visually-hidden o_default_snippet_text">Previous</span>
+                </a>
+                <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#sales_applications_myCarousel16921822786123456">
+                    <span class="carousel-control-next-icon"/>
+                    <span class="visually-hidden o_default_snippet_text">Next</span>
+                </a>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>
