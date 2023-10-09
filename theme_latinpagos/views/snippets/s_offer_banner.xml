@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_offer_banner" name="Banner">
+        <section class="s_tabs offer_banner pt48 pb48" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: none;">
+            <div class="container-fluid">
+                <div class="s_tabs_main">
+                    <div class="s_tabs_nav">
+                        <ul class="nav nav-pills justify-content-center" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link o_default_snippet_text d-flex align-items-center active" id="offer_nav_tabs_link_1692176111803_167" data-bs-toggle="tab" href="#offer_nav_tabs_content_1692176111803_167" role="tab" aria-controls="offer_nav_tabs_content_1692176111803_167" aria-selected="true"><img class="img img-fluid me-2" src="/theme_latinpagos/static/src/img/svgviewer-png-output.png"/>PAX S920</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link o_default_snippet_text d-flex align-items-center" id="offer_nav_tabs_link_1692176111803_168" data-bs-toggle="tab" href="#offer_nav_tabs_content_1692176111803_168" role="tab" aria-controls="offer_nav_tabs_content_1692176111803_168" aria-selected="false"><img class="img img-fluid me-2" src="/theme_latinpagos/static/src/img/svgviewer-png-output.png"/>SUNMI P2</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="s_tabs_content tab-content">
+                        <div class="tab-pane fade show active" id="offer_nav_tabs_content_1692176111803_167" role="tabpanel" aria-labelledby="offer_nav_tabs_link_1692176111803_167">
+                            <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                                <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000000" id="offer_banner_tab1_myCarousel1692182278613" style="background-image: none;">
+                                    <ol class="carousel-indicators o_we_no_overlay">
+                                        <li data-bs-slide-to="0" data-bs-target="#offer_banner_tab1_myCarousel1692182278613" class="active" aria-current="true"/>
+                                        <li data-bs-slide-to="1" data-bs-target="#offer_banner_tab1_myCarousel1692182278613"/>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item pt48 pb48 active" data-name="Slide" style="">
+                                            <div class="container">
+                                                <div class="d-flex flex-column flex-lg-row offer_banner_carousel_content justify-content-center align-items-center">
+                                                    <div class="offer_img text-center">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/offer_banner_img1.png" loading="lazy" style=""/>
+                                                    </div>
+                                                    <div class="offer_list px-3 mx-md-3">
+                                                        <h4 class="fw-bold">Punto de venta</h4>
+                                                        <h2 class="fw-bold text-primary mb32">PAX S920</h2>
+                                                        <ul class="mb-0 ps-4">
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-tecnologia-contactless.svg" loading="lazy" style=""/>
+                                                                <span class="text-primary fw-bold">Tecnología Contactless</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-pantalla-tactil.svg" loading="lazy" style=""/>
+                                                                <span>Pantalla táctil a color.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-teclado-alfanumerico.svg" loading="lazy" style=""/>
+                                                                <span>Teclado alfanumérico de 10 teclas y 5 funcionales.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-conexion-inalambrica.svg" loading="lazy" style=""/>
+                                                                <span>Conexión inalámbrica WiFi / GPRS.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span>Rapidez en la velocidad de registros.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span>Impresora Térmica de alta velocidad.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                            <img src="/theme_latinpagos/static/src/img/icon-lector-tarjeta-banda-smart.svg" loading="lazy" style=""/>
+                                                                <span>Lector de Chip EMV y Banda Magnética.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span>Batería Recargable.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span class="text-primary fw-bold">Certificación.</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item pt48 pb48" data-name="Slide" style="">
+                                            <div class="container">
+                                                <div class="d-flex flex-column flex-lg-row offer_banner_carousel_content justify-content-center align-items-center">
+                                                    <div class="offer_img text-center">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/offer_banner_img1.png" loading="lazy" style=""/>
+                                                    </div>
+                                                    <div class="offer_list px-3 mx-md-3">
+                                                        <h4 class="fw-bold">Punto de venta</h4>
+                                                        <h2 class="fw-bold text-primary mb32">SUNMI P2</h2>
+                                                        <ul class="mb-0 ps-4">
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-tecnologia-contactless.svg" loading="lazy" style=""/>
+                                                                <span>Contactless</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-conexion-inalambrica.svg" loading="lazy" style=""/>
+                                                                <span>Conexión inalámbrica WiFi / GPRS</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span>Dual SIM 4G, LTE, 3G, 2G y 5GHz</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-pantalla-tactil.svg" loading="lazy" style=""/>
+                                                                <span>Pantalla de 5.5 pulgadas</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-teclado-alfanumerico.svg" loading="lazy" style=""/>
+                                                                <span>Teclado: Panel Táctil</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span>Procesador: 4 núcleos 1.5 GHz</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-memoria-ram.svg" loading="lazy" style=""/>
+                                                                <span>Memoria: 1GB RAM + 8GB ROM</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-lector-tarjeta-banda-smart.svg" loading="lazy" style=""/>
+                                                                <span>Lector de Tarjetas: Banca Magnética, Smart Card y NFC</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-prolin-os.svg" loading="lazy" style=""/>
+                                                                <span>Sistema Operativo: Android 7.1 / SunMI OS</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#offer_banner_tab1_myCarousel1692182278613">
+                                        <span class="carousel-control-prev-icon"/>
+                                        <span class="visually-hidden o_default_snippet_text">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#offer_banner_tab1_myCarousel1692182278613">
+                                        <span class="carousel-control-next-icon"/>
+                                        <span class="visually-hidden o_default_snippet_text">Next</span>
+                                    </a>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade" id="offer_nav_tabs_content_1692176111803_168" role="tabpanel" aria-labelledby="offer_nav_tabs_link_1692176111803_168">
+                            <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                                <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000000" id="offer_banner_tab2_myCarousel1692182278613" style="background-image: none;">
+                                    <ol class="carousel-indicators o_we_no_overlay">
+                                        <li data-bs-slide-to="0" data-bs-target="#offer_banner_tab2_myCarousel1692182278613" class="active" aria-current="true"/>
+                                        <li data-bs-slide-to="1" data-bs-target="#offer_banner_tab2_myCarousel1692182278613"/>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item pt48 pb48 active" data-name="Slide" style="">
+                                            <div class="container">
+                                                <div class="d-flex flex-column flex-lg-row offer_banner_carousel_content justify-content-center align-items-center">
+                                                    <div class="offer_img text-center">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/offer_banner_img1.png" loading="lazy" style=""/>
+                                                    </div>
+                                                    <div class="offer_list px-3 mx-md-3">
+                                                        <h4 class="fw-bold">Punto de venta</h4>
+                                                        <h2 class="fw-bold text-primary mb32">PAX S920</h2>
+                                                        <ul class="mb-0 ps-4">
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-tecnologia-contactless.svg" loading="lazy" style=""/>
+                                                                <span class="text-primary fw-bold">Tecnología Contactless</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-pantalla-tactil.svg" loading="lazy" style=""/>
+                                                                <span>Pantalla táctil a color.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-teclado-alfanumerico.svg" loading="lazy" style=""/>
+                                                                <span>Teclado alfanumérico de 10 teclas y 5 funcionales.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-conexion-inalambrica.svg" loading="lazy" style=""/>
+                                                                <span>Conexión inalámbrica WiFi / GPRS.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span>Rapidez en la velocidad de registros.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span>Impresora Térmica de alta velocidad.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                            <img src="/theme_latinpagos/static/src/img/icon-lector-tarjeta-banda-smart.svg" loading="lazy" style=""/>
+                                                                <span>Lector de Chip EMV y Banda Magnética.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span>Batería Recargable.</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span class="text-primary fw-bold">Certificación.</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item pt48 pb48" data-name="Slide" style="">
+                                            <div class="container">
+                                                <div class="d-flex flex-column flex-lg-row offer_banner_carousel_content justify-content-center align-items-center">
+                                                    <div class="offer_img text-center">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/offer_banner_img1.png" loading="lazy" style=""/>
+                                                    </div>
+                                                    <div class="offer_list px-3 mx-md-3">
+                                                        <h4 class="fw-bold">Punto de venta</h4>
+                                                        <h2 class="fw-bold text-primary mb32">SUNMI P2</h2>
+                                                        <ul class="mb-0 ps-4">
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-tecnologia-contactless.svg" loading="lazy" style=""/>
+                                                                <span>Contactless</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-conexion-inalambrica.svg" loading="lazy" style=""/>
+                                                                <span>Conexión inalámbrica WiFi / GPRS</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span>Dual SIM 4G, LTE, 3G, 2G y 5GHz</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-pantalla-tactil.svg" loading="lazy" style=""/>
+                                                                <span>Pantalla de 5.5 pulgadas</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-teclado-alfanumerico.svg" loading="lazy" style=""/>
+                                                                <span>Teclado: Panel Táctil</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <span>Procesador: 4 núcleos 1.5 GHz</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-memoria-ram.svg" loading="lazy" style=""/>
+                                                                <span>Memoria: 1GB RAM + 8GB ROM</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-lector-tarjeta-banda-smart.svg" loading="lazy" style=""/>
+                                                                <span>Lector de Tarjetas: Banca Magnética, Smart Card y NFC</span>
+                                                            </li>
+                                                            <li class="mb-3">
+                                                                <img src="/theme_latinpagos/static/src/img/icon-prolin-os.svg" loading="lazy" style=""/>
+                                                                <span>Sistema Operativo: Android 7.1 / SunMI OS</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#offer_banner_tab2_myCarousel1692182278613">
+                                        <span class="carousel-control-prev-icon"/>
+                                        <span class="visually-hidden o_default_snippet_text">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#offer_banner_tab2_myCarousel1692182278613">
+                                        <span class="carousel-control-next-icon"/>
+                                        <span class="visually-hidden o_default_snippet_text">Next</span>
+                                    </a>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

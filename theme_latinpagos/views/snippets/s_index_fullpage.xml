@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_index_fullpage" name="Index Fullpage">
+        <section class="s_carousel_wrapper index_banner" data-vxml="001" data-snippet="s_carousel" data-name="Carousel" style="">
+            <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000000" id="myCarousel1691998203818indexfullpagebanner" style="background-image: none;">
+                <ol class="carousel-indicators o_we_no_overlay">
+                    <li data-bs-slide-to="0" class="active" data-bs-target="#myCarousel1691998203818indexfullpagebanner" aria-current="true"/>
+                    <li data-bs-slide-to="1" data-bs-target="#myCarousel1691998203818indexfullpagebanner"/>
+                    <li data-bs-slide-to="2" data-bs-target="#myCarousel1691998203818indexfullpagebanner"/>
+                    <li data-bs-slide-to="3" data-bs-target="#myCarousel1691998203818indexfullpagebanner"/>
+                    <li data-bs-slide-to="4" data-bs-target="#myCarousel1691998203818indexfullpagebanner"/>
+                    <li data-bs-slide-to="5" data-bs-target="#myCarousel1691998203818indexfullpagebanner"/>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item pt120 pb120 oe_img_bg o_bg_img_center o_colored_level active" style="background-image: url(&quot;/theme_latinpagos/static/src/img/index_banner_2.webp&quot;);" data-name="Slide">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 col-10 text-center o_colored_level">
+                                    <section class="slide1_content px-3 bg-white position-relative o_colored_level o_animate o_anim_slide_in o_anim_from_bottom" style="background-image: none;">
+                                        <div class="icon_img bg-primary rounded-circle mx-auto d-flex align-items-center justify-content-center">
+                                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/icon-vision.svg" style="" loading="eager"/>
+                                        </div>
+                                        <h1 class="text-o-color-5 fw-bold mb-0 pt-5">
+                                            Apunta al <span class="text-primary">crecimiento <br/>de tu negocio</span><br/>con Latin Pagos
+                                        </h1>
+                                        <div class="business_growth d-flex justify-content-center flex-column flex-md-row gap-3 px-3 px-md-5">
+                                            <a href="#" class="btn growth_content d-flex align-items-center bg-white w-100 o_animate o_anim_slide_in o_anim_from_bottom" data-bs-original-title="" title="" style="">
+                                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/index_banner_slider1_building.svg" style="" loading="eager"/>
+                                                <h4 class="text-primary ms-2 mb-0">
+                                                    Empresas
+                                                </h4>
+                                            </a>
+                                            <a href="#" class="btn growth_content d-flex align-items-center bg-white w-100 o_animate o_anim_slide_in o_anim_from_bottom" data-bs-original-title="" title="" style="">
+                                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/index_banner_slider1_user.svg" style="" loading="eager"/>
+                                                <h4 class="text-primary ms-2 mb-0">
+                                                    Emprendedores
+                                                </h4>
+                                            </a>
+                                            <a href="#" class="btn growth_content d-flex align-items-center bg-white w-100 o_animate o_anim_slide_in o_anim_from_bottom" data-bs-original-title="" title="" style="">
+                                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/index_banner_slider1_home.svg" style="" loading="eager"/>
+                                                <h4 class="text-primary ms-2 mb-0">
+                                                    Personas
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item pt88 pb88 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/index_banner_4.webp&quot;);" data-name="Slide">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-xl-7 o_colored_level o_animate o_anim_slide_in o_anim_from_bottom" style="">
+                                    <h1 class="text-secondary fw-bold">Impulsar tus metas,<br/>sumando un <span class="text-primary">Punto de Venta</span></h1>
+                                    <a class="btn btn-primary mt-3 btn-lg fw-bold" href="#">Comprar ahora</a>
+                                </div>
+                                <div class="col-xl-5 d-xl-block d-none o_colored_level o_animate o_anim_slide_in o_anim_from_bottom" style="">
+                                    <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ib_s2.png" style="" data-bs-original-title="" title="" aria-describedby="tooltip817834" loading="eager"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item pt88 pb88 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/index_banner_3.webp&quot;);" data-name="Slide">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-xl-5 d-xl-block d-none o_colored_level o_animate o_anim_slide_in o_anim_from_bottom" style="">
+                                    <img class="img img-fluid p-3" src="/theme_latinpagos/static/src/img/ib_s3.png" style="" data-bs-original-title="" title="" aria-describedby="tooltip38657" loading="eager"/>
+                                </div>
+                                <div class="col-xl-7 o_colored_level o_animate o_anim_slide_in o_anim_from_bottom" style="">
+                                    <div class="d-flex align-items-center align-items-xl-start flex-column flex-md-row">
+                                        <img class="img img-fluid ib_s3_logo p-3" src="/theme_latinpagos/static/src/img/ib_s3_logo.svg" style="" loading="eager"/>
+                                        <div class="text-center text-md-start">
+                                            <h1 class="text-white fw-bold">Nuestro principal <br/> <span class="text-primary">aliado</span></h1>
+                                            <h1 class="text-white">Experiencia que nos lleva a todo el país.</h1>
+                                            <a class="btn btn-primary btn-lg fw-bold mt-3" target="_blank" href="#">Acércate a las Agencias BNC</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item pt88 pb88 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/index_banner_5.webp&quot;);" data-name="Slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 o_colored_level o_animate o_anim_slide_in o_anim_from_bottom" style="">
+                                    <h1 class="text-secondary fw-bold text-center text-md-start">Te atendemosy <br/>ofrecemos <br/><span class="text-primary">soluciones</span></h1>
+                                    <div class="d-flex align-items-center flex-column flex-md-row">
+                                        <a class="btn btn-primary btn-lg fw-bold me-0 me-md-3 w-100 w-md-auto my-3 my-md-0" href="#">Da el primer paso</a>
+                                        <div>
+                                            <a href="#" class="text-decoration-none px-3"><img class="img img-fluid" src="/theme_latinpagos/static/src/img/ib_s4_phone.svg" style="" loading="eager"/></a>
+                                            <a href="#" class="text-decoration-none px-3"><img class="img img-fluid" src="/theme_latinpagos/static/src/img/ib_s4_whatsapp.svg" style="" loading="eager"/></a>
+                                            <a href="#" class="text-decoration-none px-3"><img class="img img-fluid" src="/theme_latinpagos/static/src/img/ib_s4_mail.svg" style="" loading="eager"/></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item pt88 pb88 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/index_banner_6.webp&quot;);" data-name="Slide">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-7 col-md-11 offset-xl-5 text-center o_colored_level o_animate o_anim_slide_in o_anim_from_bottom" style="">
+                                    <img class="img img-fluid mb-3" src="/theme_latinpagos/static/src/img/ib_s5.svg" style="" loading="eager"/>
+                                    <section class="bg-white s5_content pt32 pb32 px-3">
+                                        <h1 class="text-secondary fw-bold"><span class="text-primary">Calidad</span> en la gestión <br/>para brindarte <span class="text-primary">solución</span></h1>
+                                        <a class="btn btn-primary btn-lg fw-bold w-75 s5_btn" href="#">Da el primer paso</a>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item pt88 pb88 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/index_banner_1.webp&quot;);" data-name="Slide">
+                        <div class="container">
+                            <div class="row justify-content-around">
+                                <div class="col-xl-4 text-center o_colored_level o_animate o_anim_slide_in o_anim_from_bottom" style="">
+                                    <img class="img img-fluid ib_s6_img" src="/theme_latinpagos/static/src/img/logo-slider.svg" style="" data-bs-original-title="" title="" aria-describedby="tooltip492148" loading="eager"/>
+                                </div>
+                                <div class="col-xl-6 text-center text-xl-start o_colored_level o_animate o_anim_slide_in o_anim_from_bottom" style="">
+                                    <h1 class="text-secondary fw-bold mt-3 mt-xl-0">Somos presentey <br/><span class="text-primary">futuro</span></h1>
+                                    <a class="btn btn-primary btn-lg fw-bold mt-3" href="#">Da el primer paso</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#myCarousel1691998203818indexfullpagebanner">
+                    <span class="carousel-control-prev-icon"/>
+                    <span class="visually-hidden o_default_snippet_text">Previous</span>
+                </a>
+                <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#myCarousel1691998203818indexfullpagebanner">
+                    <span class="carousel-control-next-icon"/>
+                    <span class="visually-hidden o_default_snippet_text">Next</span>
+                </a>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="s_tabs index_connection_technology pb48 oe_img_bg o_bg_img_center o_colored_level" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: url(&quot;/theme_latinpagos/static/src/img/index_tech_bg.png&quot;);">
+            <div class="container">
+                <div class="s_tabs_main">
+                    <div class="s_tabs_nav mb-3 d-flex justify-content-between align-items-center flex-wrap gap-3">
+                        <a href="#" class="btn btn-primary fw-bold px-4 index_connection_technology_pos_btn">¡Adquiere tu POS ahora mismo!</a>
+                        <ul class="nav nav-pills" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="nav_tabs_link_1692010237151_157" data-bs-toggle="tab" href="#nav_tabs_content_1692010237151_157" role="tab" aria-controls="nav_tabs_content_1692010237151_157" aria-selected="true">PAX S920</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="nav_tabs_link_1692010237152_158" data-bs-toggle="tab" href="#nav_tabs_content_1692010237152_158" role="tab" aria-controls="nav_tabs_content_1692010237152_158" aria-selected="false">SUNMI P2</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="s_tabs_content tab-content pt-5">
+                        <div class="tab-pane fade active show" id="nav_tabs_content_1692010237151_157" role="tabpanel" aria-labelledby="nav_tabs_link_1692010237151_157">
+                            <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="s_text_block" style="background-image: none;" data-name="Text">
+                                    <div class="container">
+                                        <div class="row align-items-center justify-content-around">
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center o_colored_level o_animate o_animate_both_scroll o_anim_slide_in o_anim_from_left" style="">
+                                                <img class="img img-fluid technology_img" src="/theme_latinpagos/static/src/img/index_pos_img1.webp" loading="eager" style=""/>
+                                                <h4 class="py-3 mb-0 fw-bold text-center">Tecnología Contactless</h4>
+                                                <ul class="list-unstyled mb-0 text-center">
+                                                    <li class="py-3">Teclado Panel Táctil</li>
+                                                    <li class="py-3">Pantalla de 5.5 pulgadas</li>
+                                                    <li class="py-3">Lector de Banca Magnética, Smart Card y NFC</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center o_colored_level">
+                                                <img class="img img-fluid o_animate o_animate_both_scroll o_anim_flip_in_x" src="/theme_latinpagos/static/src/img/index_pos_img3.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip583292"/>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll" style="">
+                                                <img class="img img-fluid technology_img" src="/theme_latinpagos/static/src/img/index_pos_img2.webp" loading="eager" style=""/>
+                                                <h4 class="py-3 mb-0 fw-bold text-center">Conexión WiFi / GPRS</h4>
+                                                <ul class="list-unstyled mb-0 text-center">
+                                                    <li class="py-3">Impresora Térmica de alta velocidad</li>
+                                                    <li class="py-3">Batería Recargable</li>
+                                                    <li class="py-3">Seguridad sin precedentes</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 text-center title_content">
+                                                <h1 class="text-primary title fw-bold">
+                                                    PAX S920
+                                                </h1>
+                                                <p class="sub_title fw-bold">
+                                                    última tecnología en el mercado
+                                                </p>
+                                                <a class="btn btn-primary fw-bold btn-lg" href="#">¡Adquiere tu POS ahora mismo!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav_tabs_content_1692010237152_158" role="tabpanel" aria-labelledby="nav_tabs_link_1692010237152_158">
+                            <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="s_text_block" style="background-image: none;" data-name="Text">
+                                    <div class="container">
+                                        <div class="row align-items-center justify-content-around">
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center">
+                                                <img class="img img-fluid technology_img" src="/theme_latinpagos/static/src/img/index_pos_img1.webp" loading="lazy" style=""/>
+                                                <h4 class="py-3 mb-0 fw-bold text-center">Tecnología Contactless</h4>
+                                                <ul class="list-unstyled mb-0 text-center">
+                                                    <li class="py-3">Teclado Panel Táctil</li>
+                                                    <li class="py-3">Pantalla de 5.5 pulgadas</li>
+                                                    <li class="py-3">Lector de Banca Magnética, Smart Card y NFC</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center">
+                                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/index_pos_img3.png" loading="lazy" style=""/>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center">
+                                                <img class="img img-fluid technology_img" src="/theme_latinpagos/static/src/img/index_pos_img2.webp" loading="lazy" style=""/>
+                                                <h4 class="py-3 mb-0 fw-bold text-center">Conexión WiFi / GPRS</h4>
+                                                <ul class="list-unstyled mb-0 text-center">
+                                                    <li class="py-3">Impresora Térmica de alta velocidad</li>
+                                                    <li class="py-3">Batería Recargable</li>
+                                                    <li class="py-3">Seguridad sin precedentes</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 text-center title_content">
+                                                <h1 class="text-primary title fw-bold">
+                                                    SunMi P2
+                                                </h1>
+                                                <p class="sub_title fw-bold">
+                                                    última tecnología en el mercado
+                                                </p>
+                                                <a class="btn btn-primary fw-bold btn-lg" href="#">¡Adquiere tu POS ahora mismo!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="index_facility pt64 pb64 bg-white">
+            <div class="container">
+                <div class="text-center w-lg-75 w-xl-50 mx-auto">
+                    <h2 class="text">Facilidades</h2>
+                    <p>
+                        Estamos enfocados en ofrecer medios de pagos tecnológicos adaptados a las necesidades de los clientes, brindando experiencia de usuario, optimizando los procesos de negocio y potenciando las ventas.
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-9 col-md-6 col-xl-3 text-center facility_content">
+                        <div class="py-3 h-100">
+                            <img class="img img-fluid facility_img" src="/theme_latinpagos/static/src/img/index_facility_img1.webp" loading="lazy" style=""/>
+                            <h5 class="mb-3">Bolívares / Dólares</h5>
+                            <p>Calculado a la tasa de cambio del BCV, vigente al momento de efectuar el pago.</p>
+                        </div>
+                    </div>
+                    <div class="col-9 col-md-6 col-xl-3 text-center facility_content">
+                        <div class="py-3 h-100">
+                            <img class="img img-fluid facility_img" src="/theme_latinpagos/static/src/img/index_facility_img2.webp" loading="lazy" style=""/>
+                            <h5 class="mb-3">Instalación</h5>
+                            <p>Tres (3) días hábiles en Caracas, y cinco (5) días hábiles en el interior del país.</p>
+                        </div>
+                    </div>
+                    <div class="col-9 col-md-6 col-xl-3 text-center facility_content">
+                        <div class="py-3 h-100">
+                            <img class="img img-fluid facility_img" src="/theme_latinpagos/static/src/img/index_facility_img3.webp" loading="lazy" style=""/>
+                            <h5 class="mb-3">Garantía</h5>
+                            <p>Válida por tres (3) meses, desde la compra del equipo.</p>
+                        </div>
+                    </div>
+                    <div class="col-9 col-md-6 col-xl-3 text-center facility_content">
+                        <div class="py-3 h-100">
+                            <img class="img img-fluid facility_img" src="/theme_latinpagos/static/src/img/index_facility_img4.webp" loading="lazy" style=""/>
+                            <h5 class="mb-3">Durabilidad</h5>
+                            <p>Dispositivos con alta resistencia que ofrecen un mayor nivel de funcionalidad.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <a class="btn btn-lg btn-primary fw-bold mt-4" href="#">Más de Latin Pagos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="index_ally pt48 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/index_ally_bg.webp&quot;);">
+            <div class="container">
+                <div class="bnc_logo text-center">
+                    <img class="img img-fluid" src="/theme_latinpagos/static/src/img/bnc_logo.svg" loading="lazy" style=""/>
+                    <h2 class="text-primary fw-bold">Nuestro principal aliado</h2>
+                    <section class="pt240 pb240 map_img o_bg_img_center" style="background-image: url(&quot;/theme_latinpagos/static/src/img/mapa-venezuela.svg&quot;);">
+                        <h4 class="text-primary fw-bold my-5">Experiencia que nos lleva a todo el país</h4>
+                    </section>
+                </div>
+            </div>
+
+            <section class="text-center ally_subsection pb24 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/arrow-bg-bottom-gray.svg&quot;);">
+                <img class="img img-fluid mb-5 menus_img o_animate o_animate_both_scroll o_anim_flip_in_y" src="/theme_latinpagos/static/src/img/index_service.svg" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip514653"/>
+                <h1 class="fw-bold">Costo del servicio</h1>
+                <h3 class="text-primary fw-bold">Es un ahorro</h3>
+                <i class="fa fa-chevron-down text-primary fa-3x" data-bs-original-title="" title="" aria-describedby="tooltip513380"/>
+            </section>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section class="index_financing oe_img_bg o_bg_img_center pt48 pb48" style="background-image:url('/theme_latinpagos/static/src/img/bg-chat-quidchat 1.png')">
+            <div class="container">
+                <h4 class="text-center">We offer you plans</h4>
+                <h1 class="text-center text-primary fw-bold">Financiamiento</h1>
+                <h4 class="text-center">para adquirir tu POS</h4>
+                <div class="row pt48 pb48">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="index_finance_content text-center">
+                            <img class="img img-fluid main_img" src="/theme_latinpagos/static/src/img/index_finance_img1.png" loading="lazy" style=""/>
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ellipse-1.svg" loading="lazy" style=""/>
+                            <h4 class="fw-bold">Selecciona el equipo de tu preferencia</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="index_finance_content text-center">
+                            <img class="img img-fluid main_img" src="/theme_latinpagos/static/src/img/index_finance_img2.webp" loading="lazy" style=""/>
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ellipse-1.svg" loading="lazy" style=""/>
+                            <h4 class="fw-bold">Selecciona el equipo de tu preferencia</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="index_finance_content text-center">
+                            <img class="img img-fluid main_img" src="/theme_latinpagos/static/src/img/index_finance_img3.webp" loading="lazy" style=""/>
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ellipse-2.svg" loading="lazy" style=""/>
+                            <h4 class="fw-bold">Selecciona el equipo de tu preferencia</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="index_finance_content text-center">
+                            <img class="img img-fluid main_img" src="/theme_latinpagos/static/src/img/index_finance_img4.webp" loading="lazy" style=""/>
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/ellipse-2.svg" loading="lazy" style=""/>
+                            <h4 class="fw-bold">Selecciona el equipo de tu preferencia</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+        <section id="particles-js" class="index_support pt88 pb88 o_colored_level" style="background: linear-gradient(97.96deg, rgb(242, 97, 34) 7.78%, rgba(242, 96, 34, 0.59) 49.29%, rgb(242, 97, 34) 95.37%);">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 my-3 o_colored_level o_animate o_animate_both_scroll o_anim_flip_in_x" style="">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/headphone.svg" loading="eager" style=""/>
+                            <h2 class="mb-0 ms-3 text-white">Soporte</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-3 text-center o_colored_level o_animate o_anim_flip_in_x o_animate_both_scroll" style="">
+                        <img class="img img-fluid support_img rounded-circle p-4" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                        <h4 class="text-white mb-0">Llamadas</h4>
+                        <a href="#" class="text-white text-decoration-none">+58 (0212) 597 50 00</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-3 text-center o_colored_level o_animate o_anim_flip_in_x o_animate_both_scroll" style="">
+                        <img class="img img-fluid support_img rounded-circle p-4" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style=""/>
+                        <h4 class="text-white mb-0">Call Center</h4>
+                        <a href="#" class="text-white text-decoration-none">+58 (0212) 597 87 49</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-3 text-center o_colored_level o_animate o_anim_flip_in_x o_animate_both_scroll" style="">
+                        <img class="img img-fluid support_img rounded-circle p-4" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                        <h4 class="text-white mb-0">WhatsApp</h4>
+                        <a href="#" class="text-white text-decoration-none">+58 (0412) 262 11 11</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

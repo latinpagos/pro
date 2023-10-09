@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="theme_latinpagos_header1" inherit_id="website.layout" name="Header One" active="False">
+        <xpath expr="//header//nav" position="replace">
+            <t t-call="website.navbar">
+                <t t-set="_navbar_classes" t-valuef="header_one shadow-sm"/>
+                <div id="top_menu_container" class="container justify-content-start justify-content-lg-between pt24 pb24 px-lg-3">
+                    <!-- Brand -->
+                    <t t-call="website.placeholder_header_brand">
+                        <t t-set="_link_class" t-valuef="me-4"/>
+                    </t>
+                    <!-- Navbar Collapse -->
+                    <div id="top_menu_collapse" class="collapse navbar-collapse order-last order-lg-0">
+                        <t t-call="website.navbar_nav">
+                            <t t-set="_nav_class" t-valuef="flex-grow-1"/>
+                            <!-- Menu -->
+                            <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                <t t-call="website.submenu">
+                                    <t t-set="item_class" t-valuef="nav-item"/>
+                                    <t t-set="link_class" t-valuef="nav-link"/>
+                                </t>
+                            </t>
+                            <!-- Sign In -->
+                            <t t-call="portal.placeholder_user_sign_in">
+                                <t t-set="_item_class" t-valuef="nav-item ms-lg-auto"/>
+                                <t t-set="_link_class" t-valuef="nav-link fw-bold"/>
+                            </t>
+                            <!-- User Dropdown -->
+                            <t t-call="portal.user_dropdown">
+                                <t t-set="_user_name" t-value="true"/>
+                                <t t-set="_item_class" t-valuef="nav-item dropdown ms-lg-auto"/>
+                                <t t-set="_link_class" t-valuef="nav-link fw-bold"/>
+                            </t>
+                        </t>
+
+                        <!-- Language Selector -->
+                        <t t-call="website.placeholder_header_language_selector">
+                            <t t-set="_div_classes" t-valuef="my-auto ms-lg-3"/>
+                        </t>
+                    </div>
+                    <!-- Call To Action -->
+                    <t t-call="website.placeholder_header_call_to_action">
+                        <t t-set="_div_classes" t-valuef="ms-lg-3 d-none d-lg-block"/>
+                    </t>
+                    <a href="#" class="text-decoration-none ms-auto d-lg-none" id="mbl_sidebar_toogler"><img class="img img-fluid" src="/theme_latinpagos/static/src/img/bars.svg"/></a>
+                </div>
+            </t>
+        </xpath>
+    </template>
+    <template id="theme_latinpagos_header1_align_center" inherit_id="theme_latinpagos.theme_latinpagos_header1" active="False">
+        <xpath expr="//t[@t-set='_nav_class']" position="replace">
+            <t t-set="_nav_class" t-valuef="mx-auto"/>
+        </xpath>
+    </template>
+
+    <template id="theme_latinpagos_header1_align_right" inherit_id="theme_latinpagos.theme_latinpagos_header1" active="True">
+        <xpath expr="//t[@t-set='_nav_class']" position="replace">
+            <t t-set="_nav_class" t-valuef="ms-auto"/>
+        </xpath>
+    </template>
+
+    <template id="bizople_mbl_side_bar" inherit_id="website.layout" name="Bizople Side Bar">
+	    <xpath expr="//footer" position="after">
+            <section class="bg-primary mbl-sidebar-content d-lg-none">
+                <ul class="nav navbar-nav align-items-md-center" id="top_menu">
+                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                        <t t-call="website.submenu">
+                            <t t-set="item_class" t-value="'nav-item'" />
+                            <t t-set="link_class" t-value="'nav-link'" />
+                        </t>
+                    </t>
+                </ul>
+                <!-- Sign In -->
+                <t t-call="portal.placeholder_user_sign_in">
+                    <t t-set="_item_class" t-valuef="nav-item ms-lg-auto"/>
+                    <t t-set="_link_class" t-valuef="nav-link fw-bold"/>
+                </t>
+                <!-- User Dropdown -->
+                <t t-call="portal.user_dropdown">
+                    <t t-set="_user_name" t-value="true"/>
+                    <t t-set="_item_class" t-valuef="nav-item dropdown ms-lg-auto"/>
+                    <t t-set="_link_class" t-valuef="nav-link fw-bold"/>
+                </t>
+                <!-- Language Selector -->
+                <t t-call="website.placeholder_header_language_selector">
+                    <t t-set="_div_classes" t-valuef="my-auto ms-lg-3"/>
+                </t>
+            </section>
+            <section class="mbl-sidebar-backdrop d-lg-none">
+            </section>
+        </xpath>
+    </template>
+</odoo>

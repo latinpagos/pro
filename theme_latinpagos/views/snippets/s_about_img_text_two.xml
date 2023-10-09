@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_about_img_text_two" name="Image-Text Two">
+        <section class="about_img_text two pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 my-3 o_colored_level o_animate o_anim_slide_in o_anim_from_left o_animate_both_scroll" style="">
+                        <h2 class="my-3">Nos mantenemos a tu lado.</h2>
+                        <p>Cuentas con atención y soporte técnico, disponibles para ti, a través de múltiples formas de contacto.</p>
+                        <div class="about_contact">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img img-fluid me-3" src="/theme_latinpagos/static/src/img/ib_s4_phone.svg" loading="eager" style=""/>
+                                <span class="fw-bold">Atención al Cliente: </span>
+                                <span>(0212) 597.87.49 / Ventas: (0212) 954.75.82</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img img-fluid me-3" src="/theme_latinpagos/static/src/img/ib_s4_whatsapp.svg" loading="eager" style=""/>
+                                <span class="fw-bold">WhatsApp: </span>
+                                <span>(0412) 262.11.11</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img img-fluid me-3" src="/theme_latinpagos/static/src/img/ib_s4_mail.svg" loading="eager" style=""/>
+                                <span class="fw-bold">Correo: </span>
+                                <span>ventas@latin-pagos.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 my-3 text-center o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll" style="">
+                        <img class="img img-fluid rounded_16" src="/theme_latinpagos/static/src/img/about_img_text_img2.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip501259"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

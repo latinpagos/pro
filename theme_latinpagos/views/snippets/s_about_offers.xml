@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_about_offers" name="Aboutus Offers">
+        <section class="about_offers pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-4 d-none d-xl-block o_colored_level o_animate o_anim_slide_in o_anim_from_left o_animate_both_scroll" style="">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/frame-192.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip700929"/>
+                    </div>
+                    <div class="col-xl-8 o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll" style="">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/bnc_logo-2.svg" loading="eager" style=""/>
+                        <h2 class="mt32 mb32 fw-bold">Aliados que marcan la diferencia.</h2>
+                        <p>
+                            Nuestros aliados son tus aliados. Con el BNC, cuentas con una
+                            plataforma bancaria segura, y el respaldo de veinte años de
+                            destacada trayectoria y experiencia en el sector financiero del
+                            país.
+                        </p>
+                        <a href="#" class="d-flex mt32 gap-2 align-items-center text-decoration-none" data-bs-original-title="" title="">
+                            <img src="/theme_latinpagos/static/src/img/icon-ubicacion.svg" loading="eager" style=""/>
+                            Más de 200 Agencias
+                            BNC a tu disposición
+                            <img src="/theme_latinpagos/static/src/img/vector-1.svg" loading="eager" style=""/>
+                        </a>
+                        <div class="d-flex flex-wrap gap-4 py-5">
+                            <a href="#" class="btn btn-lg btn-primary fw-bold">Adquiérelo ahora</a>
+                            <a href="#" class="btn btn-lg btn-outline-primary fw-bold">Pasos para la compra</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

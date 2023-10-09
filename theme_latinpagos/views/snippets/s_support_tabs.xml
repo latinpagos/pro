@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_support_tabs" name="Tabs">
+        <section class="s_tabs support_tabs_two pt48 pb48 o_colored_level" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: none;">
+            <div class="container">
+                <div class="s_tabs_main">
+                    <div class="s_tabs_nav">
+                        <ul class="nav nav-pills justify-content-center" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link o_default_snippet_text active" id="nav_tabs_link_support_tabs_two_1692176111803_167" data-bs-toggle="tab" href="#nav_tabs_content_support_tabs_two_1692176111803_167" role="tab" aria-controls="nav_tabs_content_support_tabs_two_1692176111803_167" aria-selected="true">Persona Natural</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link o_default_snippet_text" id="nav_tabs_link_support_tabs_two_1692176111803_168" data-bs-toggle="tab" href="#nav_tabs_content_support_tabs_two_1692176111803_168" role="tab" aria-controls="nav_tabs_content_support_tabs_two_1692176111803_168" aria-selected="false">Persona Jurídica</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="s_tabs_content tab-content">
+                        <div class="tab-pane fade show active" id="nav_tabs_content_support_tabs_two_1692176111803_167" role="tabpanel" aria-labelledby="nav_tabs_link_support_tabs_two_1692176111803_167">
+                            <section class="rounded_16 p_32 overflow-hidden support_content o_colored_level o_animate o_anim_slide_in o_anim_from_bottom" style="background-image: linear-gradient(360deg, rgb(255, 255, 255) 0%, rgb(223, 229, 234) 100%);">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 py-3 text-center support_column">
+                                            <img class="img img-fluid p-4 rounded-circle support_img" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                                            <h4 class="fw-bold">Llamadas</h4>
+                                            <a href="#" class="text-decoration-none">+58 (0212) 597 50 00</a>
+                                        </div>
+                                        <div class="col-md-4 py-3 text-center support_column">
+                                            <img class="img img-fluid p-4 rounded-circle support_img" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style=""/>
+                                            <h4 class="fw-bold">Call Center</h4>
+                                            <a href="#" class="text-decoration-none">+58 (0212) 597 87 49</a>
+                                        </div>
+                                        <div class="col-md-4 py-3 text-center support_column">
+                                            <img class="img img-fluid p-4 rounded-circle support_img" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                                            <h4 class="fw-bold">WhatsApp</h4>
+                                            <a href="#" class="text-decoration-none">+58 (0412) 262 11 11</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade" id="nav_tabs_content_support_tabs_two_1692176111803_168" role="tabpanel" aria-labelledby="nav_tabs_link_support_tabs_two_1692176111803_168">
+                            <section class="rounded_16 p_32 overflow-hidden support_content oe_img_bg o_bg_img_center" style="background-image: linear-gradient(360deg, #ffffff 0%, #dfe5ea 100%);">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 py-3 text-center support_column">
+                                            <img class="img img-fluid p-4 rounded-circle support_img" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="lazy" style=""/>
+                                            <h4 class="fw-bold">Llamadas</h4>
+                                            <a href="#" class="text-decoration-none">+58 (0212) 597 50 00</a>
+                                        </div>
+                                        <div class="col-md-4 py-3 text-center support_column">
+                                            <img class="img img-fluid p-4 rounded-circle support_img" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="lazy" style=""/>
+                                            <h4 class="fw-bold">Call Center</h4>
+                                            <a href="#" class="text-decoration-none">+58 (0212) 597 87 49</a>
+                                        </div>
+                                        <div class="col-md-4 py-3 text-center support_column">
+                                            <img class="img img-fluid p-4 rounded-circle support_img" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="lazy" style=""/>
+                                            <h4 class="fw-bold">WhatsApp</h4>
+                                            <a href="#" class="text-decoration-none">+58 (0412) 262 11 11</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_support_banner_two" name="Banner Two">
+        <section class="support_banner_two pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 my-3 o_colored_level o_animate o_anim_slide_in o_animate_both_scroll o_anim_from_left" style="">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/soporte-estamos-para-ti.svg" loading="eager" style=""/>
+                        <div class="d-flex my-3">
+                            <h2 class="text-secondary mb-0"><span class="text-primary">Estamos </span> para ti </h2>
+                            <img class="img img-fluid ms-3" src="/theme_latinpagos/static/src/img/icon-estamos-para-ti-02.svg" loading="eager" style=""/>
+                        </div>
+                        <p>
+                            Con Latin Pagos, cuentas con soporte y asesoría técnica 24/7.
+                        </p>
+                        <a href="#" class="text-primary fw-bold">
+                            Conoce más sobre Latin Pagos
+                            <img src="/theme_latinpagos/static/src/img/vector-1.svg" loading="eager" style=""/>
+                        </a>
+                    </div>
+                    <div class="col-xl-6 my-3 text-center text-xl-end o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll" style="">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/frame-185.png" loading="eager" style=""/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="theme_common_footer1" inherit_id="website.layout" name="Footer One" active="False">
+       	<xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+				<section id="footer_theme_common1" class="footer_theme_common1 o_footer pt48 pb32">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 my-2 my-md-0">
+                                <div class="footer-logo">
+                                    <a href="/" class="navbar-brand">
+                                        <img class="img img-fluid ps-3" src="/theme_latinpagos/static/src/img/logo-white.svg"/>
+                                    </a>
+                                    <div class="mt-3 d-flex flex-column">
+                                        <a href="#" class="py-1 lh-1"><span style="font-size: 12px;">RIF: J-50106114-9</span></a>
+                                        <a href="#" class="py-1 lh-1"><span style="font-size: 12px;">Ventas - WhatsApp: (0412) 262.45.34</span></a>
+                                        <a href="#" class="py-1 lh-1"><span style="font-size: 12px;">Ventas - Fijo: (0212) 954.75.82</span></a>
+                                        <p class="py-1 mb-0"><span style="font-size: 12px;">Av. Francisco de Miranda, Edif Torre BNC, Piso 10, Sector Chacaíto, Caracas (Chacao) Miranda, Zona Postal 1060</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 my-2 my-md-0">
+                                <p class="my-2 fw-bold">Lo que ofrecemos</p>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">PAX S920</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">SUNMI P2</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">¿Por qué Latin Pagos?</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">Financiamiento</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 my-2 my-md-0">
+                                <p class="my-2 fw-bold">Ventas</p>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;"> Pasos para la compra</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">Recaudos</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">Planillas solicitud</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">Modalidades de pago</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 my-2 my-md-0">
+                                <p class="my-2 fw-bold">Cliente</p>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">Soporte</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">Preguntas frecuentes</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">Tutoriales</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span style="font-size: 12px;">Contrato</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_about_boost" name="Aboutus Boost">
+        <section class="about_boost two pt64 pb64 o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(&quot;/theme_latinpagos/static/src/img/curve-white-top-suma-un-punto.svg&quot;), radial-gradient(38.15% 94.16% at 50% 50%, rgb(255, 127, 0) 0%, rgb(249, 92, 4) 100%);">
+            <div class="container o_animate o_anim_zoom_in o_animate_both_scroll" style="">
+                <h2 class="text-white fw-bold text-center">Suma un PUNTO a tu favor</h2>
+                <p class="text-white text-center">En Latin Pagos no solo apostamos por el futuro, sino también por el éxito y el crecimiento de tu empresa.</p>
+                <div class="row">
+                    <div class="col-lg-4 boost_contant o_colored_level" style="">
+                        <div class="h-100 text-center py-5 py-lg-0">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/icon-2-colors-primer-paso.svg" style="" loading="eager"/>
+                            <h2 class="mt32 mb32 text-white">Da el primer paso</h2>
+                            <a href="#" class="text-white text-decoration-none">
+                                Conoce los requisitos
+                                <img class="img img-fluid ms-2" src="/theme_latinpagos/static/src/img/vector-3.svg" style="" loading="eager"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 boost_contant o_colored_level" style="">
+                        <div class="h-100 text-center py-5 py-lg-0">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/icon-2-colors-financiamiento.svg" loading="eager" style=""/>
+                            <h2 class="mt32 mb32 text-white">Financiamiento</h2>
+                            <a href="#" class="text-white text-decoration-none">
+                                Solicita tu equipo
+                                <img class="img img-fluid ms-2" src="/theme_latinpagos/static/src/img/vector-3.svg" loading="eager" style=""/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 boost_contant">
+                        <div class="h-100 text-center py-5 py-lg-0">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/icon-2-colors-soporte-tecnico.svg" loading="eager" style=""/>
+                            <h2 class="mt32 mb32 text-white">Soporte técnico</h2>
+                            <a href="#" class="text-white text-decoration-none">
+                                Contáctanos
+                                <img class="img img-fluid ms-2" src="/theme_latinpagos/static/src/img/vector-3.svg" loading="eager" style=""/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

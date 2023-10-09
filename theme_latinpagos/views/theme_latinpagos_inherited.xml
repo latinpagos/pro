@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Heading tags style options -->
+	<template id="heading_style_options" inherit_id="website.snippet_options">
+		<!-- Headers -->
+		<xpath expr="//we-select[@data-variable='header-template']" position="inside">
+			<we-button title="Latinpagos Header One" data-name="latinpagos_header_one_opt" data-customize-website-views="theme_latinpagos.theme_latinpagos_header1"
+				data-customize-website-variable="'latinpagos-header-1'" data-img="/theme_latinpagos/static/src/img/header_one.png"/>
+        </xpath>
+		<!-- Footer -->
+		<xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+			<we-button title="Latinpagos Estate Footer 1"
+                data-name="latinpagos_footer_one_opt"
+                data-customize-website-views="theme_latinpagos.theme_common_footer1"
+                data-customize-website-variable="'latinpagos-footer-1'"
+                data-img="/theme_latinpagos/static/src/img/footer_one.png"/>
+        </xpath>
+
+		<xpath expr="//div[@data-js='HeaderNavbar']//we-select" position="replace">
+                <we-select string="Alignment"
+                    data-name="header_alignment_opt"
+                    data-variable="hamburger-position"
+                    data-reload="/">
+                <we-button data-customize-website-views="" data-customize-website-variable="'left'">Left</we-button>
+                <we-button data-customize-website-views="website.template_header_default_align_center, website.template_header_hamburger_align_center, website.template_header_slogan_align_center,theme_latinpagos.theme_latinpagos_header1_align_center" data-customize-website-variable="'center'">Center</we-button>
+            <we-button data-customize-website-views="website.template_header_default_align_right, website.template_header_hamburger_align_right, website.template_header_slogan_align_right,theme_latinpagos.theme_latinpagos_header1_align_right" data-customize-website-variable="'right'">Right</we-button>
+            </we-select>
+        </xpath>
+
+		<xpath expr="//div[@data-js='WebsiteAnimate']" position="attributes">
+            <attribute name="data-selector">.o_animable,section,section > .container, section .row > div, img, .fa, .btn, .o_animated_text</attribute>
+		</xpath>
+
+		<xpath expr="//div[@data-js='OptionsTab']" position="inside">
+            <we-row string="H1">
+				<we-fontfamilypicker data-variable="h1-font" />
+				<we-input data-customize-website-variable="null" data-variable="h1-font-size" data-unit="px"
+					data-save-unit="rem" />
+			</we-row>
+			<we-row string="H2">
+				<we-fontfamilypicker data-variable="h2-font" />
+				<we-input data-customize-website-variable="null" data-variable="h2-font-size" data-unit="px"
+					data-save-unit="rem" />
+			</we-row>
+			<we-row string="H3">
+				<we-fontfamilypicker data-variable="h3-font" />
+				<we-input data-customize-website-variable="null" data-variable="h3-font-size" data-unit="px"
+					data-save-unit="rem" />
+			</we-row>
+			<we-row string="H4">
+				<we-fontfamilypicker data-variable="h4-font" />
+				<we-input data-customize-website-variable="null" data-variable="h4-font-size" data-unit="px"
+					data-save-unit="rem" />
+			</we-row>
+			<we-row string="H5">
+				<we-fontfamilypicker data-variable="h5-font" />
+				<we-input data-customize-website-variable="null" data-variable="h5-font-size" data-unit="px"
+					data-save-unit="rem" />
+			</we-row>
+			<we-row string="H6">
+				<we-fontfamilypicker data-variable="h6-font" />
+				<we-input data-customize-website-variable="null" data-variable="h6-font-size" data-unit="px"
+					data-save-unit="rem" />
+			</we-row>
+        </xpath>
+    </template>
+
+	<template id="theme_latinpagos_snippets" inherit_id="website.snippets">
+		<xpath expr="//div[@id='snippet_structure']" position="before">
+			<div id="slider_snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Fullpage Snippets
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_latinpagos.s_index_fullpage" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_offer_fullpage" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_aboutus_fullpage" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_sales_fullpage" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_support_fullpage" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_medium_fullpage" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+				</div>
+			</div>
+
+			<div id="slider_snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Aboutus Page Snippets
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_latinpagos.s_about_banner" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_about_boost" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_about_img_text" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_about_img_text_two" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_about_mission" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_about_offers" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_about_payments" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+				</div>
+			</div>
+
+			<div id="slider_snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Index Page Snippets
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_latinpagos.s_index_banner" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_index_ally" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_index_facility" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_index_financing" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_index_support" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_index_technology" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+				</div>
+			</div>
+
+			<div id="slider_snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Offers Page Snippets
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_latinpagos.s_offer_banner" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_offer_contact" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_offer_equipment" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_offer_equipment_two" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_offer_financing" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_offer_think" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+				</div>
+			</div>
+
+			<div id="slider_snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Sales Page Snippets
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_latinpagos.s_sales_banner" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_sales_applications" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_sales_collections" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_sales_business_partner" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_sales_equipment" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_sales_costs_one" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_sales_costs_two" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+				</div>
+			</div>
+
+			<div id="slider_snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Support Page Snippets
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_latinpagos.s_support_banner" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_support_banner_two" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_support_medium" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_support_tabs" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_support_types" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+				</div>
+			</div>
+
+			<div id="slider_snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Form Snippets
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_latinpagos.s_form_natural_person" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_form_legal_person" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_support_form_natural_person" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+					<t t-snippet="theme_latinpagos.s_support_form_legal_person" t-thumbnail="/theme_latinpagos/static/description/icon.png" />
+				</div>
+			</div>
+		</xpath>
+	</template>
+</odoo>

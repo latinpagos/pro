@@ -1,0 +1,60 @@
+h1,.h1{
+	font-family: $h1-font;
+	line-height: 1.2;
+	font-size: $o-theme-h1-font-size-multiplier;
+	@media (max-width: 1199px){
+		font-size: 3rem;
+	}
+	@media (max-width: 991px){
+		font-size: 2rem;
+	}
+}
+h2,.h2 {
+  	font-family: $h2-font;
+	line-height: 1.2;
+	font-size: $o-theme-h2-font-size-multiplier;
+	@media (max-width: 1024px){
+		font-size: 2rem;
+	}
+	@media (max-width: 767px){
+		font-size: 1.5rem;
+	}
+}
+h3,.h3 {
+  	font-family: $h3-font;
+	line-height: 1.1;
+	font-size: $o-theme-h3-font-size-multiplier;
+	@media (max-width: 1024px){
+		font-size: 1.5rem;
+	}
+	@media (max-width: 767px){
+		font-size: 1.2rem;
+	}
+}
+h4,.h4 {
+  	font-family: $h4-font;
+	line-height: 1.1;
+	font-size: $o-theme-h4-font-size-multiplier;
+	@media (max-width: 1024px){
+		font-size: 1.2rem;
+	}
+	@media (max-width: 767px){
+		font-size: 1.1rem;
+	}
+}
+h5,.h5 {
+  	font-family: $h5-font;
+	line-height: 1.1;
+	font-size: $o-theme-h5-font-size-multiplier;
+	@media (max-width: 1024px){
+		font-size: 1.05rem;
+	}
+	@media (max-width: 767px){
+		font-size: 1rem;
+	}
+}
+h6,.h6 {
+  	font-family: $h6-font;
+	line-height: 1.1;
+	font-size: $o-theme-h6-font-size-multiplier;
+}

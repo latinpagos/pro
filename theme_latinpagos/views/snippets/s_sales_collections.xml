@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_sales_collections" name="Collections">
+        <section class="sales_collections pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <h2 class="text-primary fw-bold mb-3">Recaudos</h2>
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-md-8 o_colored_level">
+                        <section class="s_tabs o_colored_level" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: none;">
+                            <div class="container">
+                                <div class="s_tabs_main">
+                                    <div class="s_tabs_nav mb-3">
+                                        <ul class="nav nav-pills justify-content-center justify-content-xl-start" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link o_default_snippet_text d-flex align-items-center active" id="nav_tabs_link_sales_collections_1692176111803_167" data-bs-toggle="tab" href="#nav_tabs_content_sales_collections_1692176111803_167" role="tab" aria-controls="nav_tabs_content_sales_collections_1692176111803_167" aria-selected="true"><img class="img img-fluid me-2" src="/theme_latinpagos/static/src/img/user_svg.svg"/>Persona Natural</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link o_default_snippet_text d-flex align-items-center" id="nav_tabs_link_sales_collections_1692176111803_168" data-bs-toggle="tab" href="#nav_tabs_content_sales_collections_1692176111803_168" role="tab" aria-controls="nav_tabs_content_sales_collections_1692176111803_168" aria-selected="false"><img class="img img-fluid me-2" src="/theme_latinpagos/static/src/img/building_svg.svg"/>Persona Jurídica</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="s_tabs_content tab-content">
+                                        <div class="tab-pane fade show active" id="nav_tabs_content_sales_collections_1692176111803_167" role="tabpanel" aria-labelledby="nav_tabs_link_sales_collections_1692176111803_167">
+                                            <div class="row justify-content-center ">
+                                                <div class="col-12">
+                                                    <section class="d-flex align-items-center mb-3 gap-2">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="lazy" style=""/>
+                                                        Tener Cuenta en BNC
+                                                    </section>
+                                                    <div class="w-100 mb-3">
+                                                        <a href="#" class="btn btn-primary fw-bold rounded-circle">Abre tu Cuenta BNC</a>
+                                                    </div>
+                                                    <section class="d-flex align-items-center mb-3 gap-2">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="lazy" style=""/>
+                                                        Planillas de solicitud BNC y Latin Pagos
+                                                    </section>
+                                                    <section class="d-flex align-items-center mb-3 gap-2">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="lazy" style=""/>
+                                                        Documento de Identidad y RIF
+                                                    </section>
+                                                    <section class="d-flex align-items-center mb-3 gap-2">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="lazy" style=""/>
+                                                        Registro Mercantil (Firma Personal), en el caso que aplique
+                                                    </section>
+                                                    <section class="d-flex align-items-center mb-3 gap-2">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="lazy" style=""/>
+                                                        Balance Personal
+                                                    </section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="nav_tabs_content_sales_collections_1692176111803_168" role="tabpanel" aria-labelledby="nav_tabs_link_sales_collections_1692176111803_168">
+                                            <div class="row justify-content-center ">
+                                                <div class="col-12">
+                                                    <section class="d-flex align-items-center mb-3 gap-2">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="lazy" style=""/>
+                                                        Tener Cuenta en BNC
+                                                    </section>
+                                                    <div class="w-100 mb-3">
+                                                        <a href="#" class="btn btn-primary fw-bold rounded-circle">Abre tu Cuenta BNC</a>
+                                                    </div>
+                                                    <section class="d-flex align-items-center mb-3 gap-2">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="lazy" style=""/>
+                                                        Planillas de solicitud BNC y Latin Pagos
+                                                    </section>
+                                                    <section class="d-flex align-items-center mb-3 gap-2">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="lazy" style=""/>
+                                                        Documento de Identidad y RIF
+                                                    </section>
+                                                    <section class="d-flex align-items-center mb-3 gap-2">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="lazy" style=""/>
+                                                        Registro Mercantil (Firma Personal), en el caso que aplique
+                                                    </section>
+                                                    <section class="d-flex align-items-center mb-3 gap-2">
+                                                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/check-2.svg" loading="lazy" style=""/>
+                                                        Balance Personal
+                                                    </section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xl-6 d-none d-xl-block">
+                        <div class="h-100">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/sales_collections_img1.png" loading="lazy" style=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

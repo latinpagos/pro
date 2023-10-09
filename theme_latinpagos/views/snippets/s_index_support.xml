@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_index_support" name="Support">
+        <section id="particles-js" class="index_support pt88 pb88 o_colored_level" style="background: linear-gradient(97.96deg, rgb(242, 97, 34) 7.78%, rgba(242, 96, 34, 0.59) 49.29%, rgb(242, 97, 34) 95.37%);">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 my-3 o_colored_level o_animate o_animate_both_scroll o_anim_flip_in_x" style="">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/headphone.svg" loading="eager" style=""/>
+                            <h2 class="mb-0 ms-3 text-white">Soporte</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-3 text-center o_colored_level o_animate o_anim_flip_in_x o_animate_both_scroll" style="">
+                        <img class="img img-fluid support_img rounded-circle p-4" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                        <h4 class="text-white mb-0">Llamadas</h4>
+                        <a href="#" class="text-white text-decoration-none">+58 (0212) 597 50 00</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-3 text-center o_colored_level o_animate o_anim_flip_in_x o_animate_both_scroll" style="">
+                        <img class="img img-fluid support_img rounded-circle p-4" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style=""/>
+                        <h4 class="text-white mb-0">Call Center</h4>
+                        <a href="#" class="text-white text-decoration-none">+58 (0212) 597 87 49</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-3 text-center o_colored_level o_animate o_anim_flip_in_x o_animate_both_scroll" style="">
+                        <img class="img img-fluid support_img rounded-circle p-4" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                        <h4 class="text-white mb-0">WhatsApp</h4>
+                        <a href="#" class="text-white text-decoration-none">+58 (0412) 262 11 11</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

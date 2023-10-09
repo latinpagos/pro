@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_offer_think" name="Think">
+        <section style="background-image: none;" class="o_colored_level">
+            <div class="container">
+                <section class="offer_think pt48 pb48 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/offer_think.png&quot;);">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8 o_colored_level">
+                                <section class="offer_think_content text-center o_colored_level o_animate o_anim_fade_in o_animate_both_scroll" style="background-image: radial-gradient(37.3% 110.46% at 50% 49.91%, rgb(255, 127, 0) 0%, rgb(249, 92, 4) 100%);">
+                                    <h2 class="text-white mb32">Pensamos en el futuro. <br/>Pensamos en ti.</h2>
+                                    <p class="mb-0 text-white">¡Da el primer paso! Lleva tu negocio al siguiente nivel con los Puntos de Venta y las soluciones que solo te ofrece Latin Pagos.</p>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

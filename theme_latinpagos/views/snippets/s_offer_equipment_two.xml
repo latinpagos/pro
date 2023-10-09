@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_offer_equipment_two" name="Equipment Two">
+        <section class="offer_equipment two pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 my-3 my-md-0 text-center o_colored_level o_animate o_anim_slide_in o_anim_from_left o_animate_both_scroll" style="">
+                        <img class="img img-fluid" src="/theme_latinpagos/static/src/img/offer_equipment_img2.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip433712"/>
+                    </div>
+                    <div class="col-xl-4 my-3 my-md-0 o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll" style="">
+                        <section class="equipment_content flex-column justify-content-center h-100 o_colored_level" style="background-image: radial-gradient(37.3% 110.46% at 50% 49.91%, rgb(255, 127, 0) 0%, rgb(249, 92, 4) 100%);">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/icon-clientes-satisfechos.svg" loading="eager" style=""/>
+                            <h2 class="text-white fw-bold">Más de 5.000 <br/>clientes satisfechos <br/>en Venezuela.</h2>
+                            <p class="text-white">Descubre nuestros equipos de última tecnología y crece con nosotros.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

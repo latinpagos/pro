@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_offer_financing" name="Financing">
+        <section class="offer_financing pt48 pb48 oe_img_bg o_bg_img_center o_colored_level" style="background-image: url(&quot;/theme_latinpagos/static/src/img/financiamiento-bg.svg&quot;);">
+            <div class="container">
+                <section class="bg-white financing_content o_colored_level o_animate o_anim_slide_in o_animate_both_scroll o_anim_from_bottom" style="background-image: none;">
+                    <h2 class="text-primary text-center fw-bold">Financiamiento</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-xl-3 text-center col_item my-2">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/financiamiento-1.png" loading="eager" style=""/>
+                            <h4 class="text-primary">Selecciona el equipo de tu preferencia</h4>
+                        </div>
+                        <div class="col-md-6 col-xl-3 text-center col_item my-2">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/financiamiento-2.png" loading="eager" style=""/>
+                            <h4 class="text-primary">Cancela la inicial</h4>
+                        </div>
+                        <div class="col-md-6 col-xl-3 text-center col_item my-2">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/financiamiento-3.png" loading="eager" style=""/>
+                            <h4 class="text-primary">Financiamiento del saldo restante</h4>
+                        </div>
+                        <div class="col-md-6 col-xl-3 text-center col_item my-2">
+                            <img class="img img-fluid" src="/theme_latinpagos/static/src/img/financiamiento-4.png" loading="eager" style=""/>
+                            <h4 class="text-primary">Tu propio Punto de Venta</h4>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

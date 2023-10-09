@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_index_technology" name="Technology">
+        <section class="s_tabs index_connection_technology pt48 pb48 oe_img_bg o_bg_img_center o_colored_level" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: url(&quot;/theme_latinpagos/static/src/img/index_tech_bg.png&quot;);">
+            <div class="container">
+                <div class="s_tabs_main">
+                    <div class="s_tabs_nav mb-3 d-flex justify-content-between align-items-center flex-wrap gap-3">
+                        <a href="#" class="btn btn-primary fw-bold px-4 index_connection_technology_pos_btn">¡Adquiere tu POS ahora mismo!</a>
+                        <ul class="nav nav-pills" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="nav_tabs_link_1692010237151_157" data-bs-toggle="tab" href="#nav_tabs_content_1692010237151_157" role="tab" aria-controls="nav_tabs_content_1692010237151_157" aria-selected="true">PAX S920</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="nav_tabs_link_1692010237152_158" data-bs-toggle="tab" href="#nav_tabs_content_1692010237152_158" role="tab" aria-controls="nav_tabs_content_1692010237152_158" aria-selected="false">SUNMI P2</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="s_tabs_content tab-content pt-5">
+                        <div class="tab-pane fade active show" id="nav_tabs_content_1692010237151_157" role="tabpanel" aria-labelledby="nav_tabs_link_1692010237151_157">
+                            <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="s_text_block" style="background-image: none;" data-name="Text">
+                                    <div class="container">
+                                        <div class="row align-items-center justify-content-around">
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center o_colored_level o_animate o_animate_both_scroll o_anim_slide_in o_anim_from_left" style="">
+                                                <img class="img img-fluid technology_img" src="/theme_latinpagos/static/src/img/index_pos_img1.webp" loading="eager" style=""/>
+                                                <h4 class="py-3 mb-0 fw-bold text-center">Tecnología Contactless</h4>
+                                                <ul class="list-unstyled mb-0 text-center">
+                                                    <li class="py-3">Teclado Panel Táctil</li>
+                                                    <li class="py-3">Pantalla de 5.5 pulgadas</li>
+                                                    <li class="py-3">Lector de Banca Magnética, Smart Card y NFC</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center o_colored_level">
+                                                <img class="img img-fluid o_animate o_animate_both_scroll o_anim_flip_in_x" src="/theme_latinpagos/static/src/img/index_pos_img3.png" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip583292"/>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center o_colored_level o_animate o_anim_slide_in o_anim_from_right o_animate_both_scroll" style="">
+                                                <img class="img img-fluid technology_img" src="/theme_latinpagos/static/src/img/index_pos_img2.webp" loading="eager" style=""/>
+                                                <h4 class="py-3 mb-0 fw-bold text-center">Conexión WiFi / GPRS</h4>
+                                                <ul class="list-unstyled mb-0 text-center">
+                                                    <li class="py-3">Impresora Térmica de alta velocidad</li>
+                                                    <li class="py-3">Batería Recargable</li>
+                                                    <li class="py-3">Seguridad sin precedentes</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 text-center title_content">
+                                                <h1 class="text-primary title fw-bold">
+                                                    PAX S920
+                                                </h1>
+                                                <p class="sub_title fw-bold">
+                                                    última tecnología en el mercado
+                                                </p>
+                                                <a class="btn btn-primary fw-bold btn-lg" href="#">¡Adquiere tu POS ahora mismo!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav_tabs_content_1692010237152_158" role="tabpanel" aria-labelledby="nav_tabs_link_1692010237152_158">
+                            <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                                <section class="s_text_block" style="background-image: none;" data-name="Text">
+                                    <div class="container">
+                                        <div class="row align-items-center justify-content-around">
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center">
+                                                <img class="img img-fluid technology_img" src="/theme_latinpagos/static/src/img/index_pos_img1.webp" loading="lazy" style=""/>
+                                                <h4 class="py-3 mb-0 fw-bold text-center">Tecnología Contactless</h4>
+                                                <ul class="list-unstyled mb-0 text-center">
+                                                    <li class="py-3">Teclado Panel Táctil</li>
+                                                    <li class="py-3">Pantalla de 5.5 pulgadas</li>
+                                                    <li class="py-3">Lector de Banca Magnética, Smart Card y NFC</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center">
+                                                <img class="img img-fluid" src="/theme_latinpagos/static/src/img/index_pos_img3.png" loading="lazy" style=""/>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3 mb-5 text-center">
+                                                <img class="img img-fluid technology_img" src="/theme_latinpagos/static/src/img/index_pos_img2.webp" loading="lazy" style=""/>
+                                                <h4 class="py-3 mb-0 fw-bold text-center">Conexión WiFi / GPRS</h4>
+                                                <ul class="list-unstyled mb-0 text-center">
+                                                    <li class="py-3">Impresora Térmica de alta velocidad</li>
+                                                    <li class="py-3">Batería Recargable</li>
+                                                    <li class="py-3">Seguridad sin precedentes</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 text-center title_content">
+                                                <h1 class="text-primary title fw-bold">
+                                                    SunMi P2
+                                                </h1>
+                                                <p class="sub_title fw-bold">
+                                                    última tecnología en el mercado
+                                                </p>
+                                                <a class="btn btn-primary fw-bold btn-lg" href="#">¡Adquiere tu POS ahora mismo!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_about_payments" name="Aboutus Payments">
+        <section class="about_payments pt48 pb48 o_colored_level" style="background-image: none;">
+            <div class="container">
+                <h1 class="text-primary text-center">Ellos han confiado en Latin Pagos.</h1>
+                <section class="s_carousel_wrapper o_animate o_anim_zoom_in o_animate_both_scroll" data-vxml="001" data-snippet="s_carousel" data-name="Carousel" style="">
+                    <div class="s_carousel s_carousel_default carousel slide" data-bs-interval="10000" id="offer_payments_myCarousel1692182278612345" style="background-image: none;">
+                        <ol class="carousel-indicators o_we_no_overlay">
+                            <li data-bs-slide-to="0" data-bs-target="#offer_payments_myCarousel1692182278612345" class="active" aria-current="true"/>
+
+                            <li data-bs-target="#offer_payments_myCarousel1692182278612345" data-bs-slide-to="1"/>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item pt32 pb32 o_colored_level active" data-name="Slide" style="background-image: none;">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2 o_colored_level">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style="" data-bs-original-title="" title="" aria-describedby="tooltip668940"/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item pt32 pb32 o_colored_level" data-name="Slide" style="background-image: none;">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-llamadas.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-whatsapp.webp" loading="eager" style=""/>
+                                        </div>
+                                        <div class="col-xl-2 col-lg-3 col-md-4 my-2">
+                                            <img class="img img-fluid rounded-circle customer_img mx-auto p-3" src="/theme_latinpagos/static/src/img/soporte-img-call-center.webp" loading="eager" style=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img" aria-label="Previous" title="Previous" href="#offer_payments_myCarousel1692182278612345">
+                            <span class="carousel-control-prev-icon"/>
+                            <span class="visually-hidden o_default_snippet_text">Previous</span>
+                        </a>
+                        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img" aria-label="Next" title="Next" href="#offer_payments_myCarousel1692182278612345">
+                            <span class="carousel-control-next-icon"/>
+                            <span class="visually-hidden o_default_snippet_text">Next</span>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+    </template>
+</odoo>
