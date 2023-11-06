@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Developed by Bizople Solutions Pvt. Ltd.
+# Developed by Noddox Consulting
 # See LICENSE file for full copyright and licensing details
 
 {
     'name': 'Theme Latinpagos',
     'category': 'Theme',
     'version': '16.0.0.0',
-    'author': 'Bizople Solutions Pvt. Ltd.',
-    'website': 'https://www.bizople.com',
+    'author': 'Noddox Consulting',
+    'website': 'https://www.latin-pagos.com',
     'summary': 'Theme Latinpagos',    
     'description': """Theme Latinpagos""",
     'depends': [
